@@ -15,6 +15,12 @@ class CreateEditorsTable extends Migration
     {
         Schema::create('editors', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->boolean('is_editor')->default(false);
+            $table->rememberToken();
             $table->timestamps();
         });
     }
