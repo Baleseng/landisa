@@ -1,0 +1,260 @@
+@mixin opacitylight{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: alpha(opacity=25);
+	-moz-opacity: 0.25;
+	-khtml-opacity: 0.25;
+	opacity: 0.25;
+}
+
+
+@mixin card1{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+/*background-image: url("../images/bgnotes.png"); background-repeat: no-repeat; opacity: .75; background-position:-162px -3px; background-size:800px;*/
+background: rgba(242,242,242,1);
+background: -moz-linear-gradient(-45deg, rgba(242,242,242,1) 0%, rgba(217,217,217,1) 44%, rgba(161,161,161,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(44%, rgba(217,217,217,1)), color-stop(100%, rgba(161,161,161,1)));
+background: -webkit-linear-gradient(-45deg, rgba(242,242,242,1) 0%, rgba(217,217,217,1) 44%, rgba(161,161,161,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(242,242,242,1) 0%, rgba(217,217,217,1) 44%, rgba(161,161,161,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(242,242,242,1) 0%, rgba(217,217,217,1) 44%, rgba(161,161,161,1) 100%);
+background: linear-gradient(135deg, rgba(242,242,242,1) 0%, rgba(217,217,217,1) 44%, rgba(161,161,161,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#a1a1a1', GradientType=1 );
+}
+
+@mixin card2{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff88+0,edea90+97 */
+/*background-image: url("../images/bgboxpost.png"); background-repeat: no-repeat; opacity: .75;*/
+color:#ffffff;
+background: -moz-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,1)), color-stop(100%, rgba(0,255,255,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#ff00ff',GradientType=1 ); /* ie6-9 */}
+
+@mixin card3{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffaf4b+0,fc7b02+100 */
+/*background-image: url("../images/bgstars.png"); background-repeat: no-repeat; opacity: .75;*/
+color:#ffffff;
+background: -moz-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(0,255,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,128,0,1)), color-stop(100%, rgba(0,255,255,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(0,255,255,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(0,255,255,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(0,255,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#008000',GradientType=1 ); /* ie6-9 */}
+
+@mixin card4{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4096ee+0,3667c9+100 */
+/*background-image: url("../images/bgpostcard.png"); background-repeat: no-repeat; opacity: .75;*/
+background: rgba(242,242,242,1);
+background: -moz-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(153,218,255,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(37deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */}
+
+@mixin card5{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+/*background-image: url("../images/bgstarstw.png"); background-repeat: no-repeat; opacity: .75;*/
+background: rgba(242,242,242,1);
+background: -moz-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,0,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#FFFF00',GradientType=1 ); /* ie6-9 */}
+
+@mixin sharegradiencebox{background: rgba(5,5,5,0);
+background: -moz-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.9) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,5,5,0)), color-stop(100%, rgba(0,0,0,0.9)));
+background: -webkit-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.9) 100%);
+background: -o-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.9) 100%);
+background: -ms-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.9) 100%);
+background: linear-gradient(to bottom, rgba(5,5,5,0) 0%, rgba(0,0,0,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#000000', GradientType=0 );}
+
+@mixin anchortitle{-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);}
+@mixin tooltiptransition{-webkit-transition: all 500ms ease-in;
+	-moz-transition: all 500ms ease-in;
+	-ms-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;}
+@mixin userselect{-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
+@mixin postitem{font:normal 14px Arial, sans-serif; margin:5px 0;}
+
+.user-timeline-container{
+	.post-shared-wrap{min-height:15px;
+
+		.user-timeline-postcontent-tab{display:block; margin-bottom:15px; padding:.25em 0; background-color:#405365; position: relative;
+			
+			span.user-timeline-posttitle{display:block; padding:5px 15px; font:bold 12px arial, sans-serif; color:#f2f2f2; text-transform:uppercase;}
+			.user-timeline-postbtn-wrap{padding:5px;
+				span.user-timeline-postbtn{display:block; width:100%; padding:15px; background:white; cursor:text; font:400 12px arial, sans-serif; color:#405365;
+					i{font-size:21px; vertical-align: middle;}
+				}
+			}
+
+			#sideborder{border-left: .05em #f2f2f2 solid;border-right: .05em #f2f2f2 solid;}
+		
+			.tablinkuser {position:absolute; top:0; border:none; background-color:#f26522; outline:none; cursor:pointer; padding:.5em 10px; margin-left:5px; font:900 12px 'OpenSansRegular', arial, sans-serif; 
+				&:hover{background-color:#ccc;}
+				i,b{vertical-align:middle; color:#333333; text-transform:uppercase;}
+				i{font-size:21px;}
+				b{margin-left:5px;}
+			}
+			#tabarticlepostion{left:7.5em;}
+
+		  #activebtn{background: #d0dade;}
+			.tabutton{position:static; display:inline-block; padding:5px; text-align:center; margin:0; cursor: pointer; text-transform:uppercase; background: #f26522;
+				i{margin: 0 10px; color:#405365;}
+				i,b{font:bold 12px Op, Arial; color:#333; display:inline-block; position:relative; bottom:3px}
+			}
+		}
+
+		.shareuserpost{display:block; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+			 
+			.postcontainer{min-height:1px; display:block;
+				.post{background:white; padding:5px; border:1px #d0dade solid;
+					
+					.post_user_profile_dropdown{width:100%; position:relative;
+						.post_user_profile{display:inline-block; vertical-align:top;
+							.post_user_profile_image{display:inline-block; width:55px; height:55px; overflow:hidden; position: relative;
+								img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:4em; text-align:center;}
+							}
+							.post_user_profile_heading{display:inline-block; vertical-align:top;
+								a{font:bold 12px Op, Arial; color:#405365; text-transform:capitalize;}
+								span{display:block; font:12px Op, Arial; color:#ccc;}
+							}		
+						}
+					
+						.dropdown2 {display: inline-block; vertical-align: top; position: relative; z-index:5;
+							.arrow_post_config:after{bottom:100%; right:8px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;
+							border-color: rgba(136, 183, 213, 0); border-bottom-color:#e4e4e4;  border-width:10px;  margin-left:0;}
+							.dropbtn2 {font-size:21px; margin:0 5px; color:#405365; padding:0 5px; width:auto; cursor:pointer; text-align:center; text-decoration:none; border:none;
+								&:hover,&:focus{color:#f2f2f2;}
+							}
+							.dropdown2-content{display:none; position:absolute; width:290px; z-index:1; background:#f2f2f2; right:0; border:1px #ccc solid;
+							-moz-box-shadow:0px 1px 1px 0px rgba(0,0,0,.25);-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,.25); box-shadow: 0px 1px 1px 0px rgba(0,0,0,.25);}
+							.show {display:block;
+								ul{list-style:none;
+									li{display:block; border-bottom:1px solid #ccc; cursor:pointer;
+										.show-share-btn{padding:10px;
+											i{font-size:16px; color:#405365; display:inline-block; vertical-align:top;}	
+											span{display:inline-block; vertical-align:top; width:240px; font:normal 12px arial, sans-serif; color:#405365;
+												b{display:block; font-weight: bold;}
+											}
+										}
+										&:hover,&:focus{background-color:#d0dade;}
+									}
+								}
+							}
+						}
+					}
+
+					#postcard-1{background-color: white; font:200 14px 'OpenSansRegular', arial, sans-serif; text-align:left; color:#333;}
+					#postcard-2,
+					#postcard-3,
+					#postcard-4,
+					#postcard-5,
+					#postcard-6{font:900 25px 'OpenSansRegular', arial, sans-serif; text-align:center;}
+					#postcard-2{@include card1}
+					#postcard-3{@include card2}
+					#postcard-4{@include card3}
+					#postcard-5{@include card4}
+					#postcard-6{@include card5}
+					.post_user_share_article_wrap{width:100%; margin-bottom:10px; display:block; 	
+						
+						.post_user_share_article_col_post{position:relative; width:100%; min-height:150px; margin:0 auto;
+							span.postcard_user_shares{display:block; padding: 55px 0}
+						}
+
+						.post_user_share_article_col_community{position:relative; width:100%; min-height:100px; margin:0 auto;
+							.post_user_share_article_post{@include postitem}
+							.post_user_community_article_col_user{background:#cccccc; min-height:100px; padding:5px; width:115px; display:inline-block; vertical-align:top; 
+								.post_user_community_article_col_img{width:100%; height:100px; overflow:hidden;
+									img{width:100%}
+								}
+							}
+							.post_user_community_article_col_title{display:inline-block; vertical-align:top; width:330px; height:100px; margin-left: 10px;
+								i{display:none; visibility:hidden;}
+								a{display:block; font:900 18px 'OpenSansRegular', arial, sans-serif; color:#405365; margin: 5px 0; overflow: hidden; height:50px;}
+								span{font:100 .75em Arial, sans-serif; color:#f26522; height:50px; overflow:hidden; line-height:16px; text-transform:capitalize;}
+								.post_user_community_article_col_name{margin-top:5px; font:500 12px 'OpenSansRegular', arial, sans-serif; color:#333333;}
+							}
+						}
+
+						.post_user_share_article_col_article{position:relative; width:100%; min-height:185px; margin:0 auto;
+							.post_user_share_article_post{@include postitem}
+							.post_user_share_article_col_title{position:absolute; top:0; width:100%; text-align:left; @include sharegradiencebox;
+								.post_user_share_btn_row{position:absolute; bottom:5px;
+									span{display:inline-block; vertical-align:middle; font-size:21px; margin:auto; color:#f26522; padding:5px;}
+									.post_user_share_btn_col{display:inline-block; vertical-align:middle;
+										a.post_user_share_heading{color: #ffffff; height:55px; overflow: hidden; display:block;
+											&:hover{color:#f2f2f2;}}
+										a.post_user_share_section{display:block; margin:5px 0 0; text-transform:capitalize; color:#f26522; font:normal 14px Arial, sans-serif;
+											&:hover{color:#f26522;}}
+									}
+								}
+								/*p{font:normal 14px Arial, sans-serif; color: #ffffff; height:80px; overflow: hidden; line-height:16px;}*/
+							}
+
+							.post_user_share_article_col_section{position:absolute; top:0; left:0; background:#f26522; padding:5px 10px; font:500 12px 'OpenSansRegular', arial, sans-serif; color: #333; text-transform:uppercase;}
+							
+							.post_user_share_article_col_img{width:100%; overflow:hidden;
+								img{width:100%}
+							}
+						}
+
+					}
+
+					.post_user_social_btn_wrap{height:30px; margin:0;
+						.post_user_social_btn{margin: 0px auto;
+							.post_user_social_mood,
+							.post_user_social_comment,
+							.post_user_social_share{position: relative; display:inline-block; 
+								.post_user_social_moodbtn,
+								.post_user_social_commentbtn,
+								.post_user_social_sharebtn{color:#405365; background:none; font:100 14px 'OpenSansRegular', arial, sans-serif; border:none; cursor:pointer;  
+									i{vertical-align:middle; margin:0; font-size:20px;}
+									b{display: inline-block; vertical-align: middle;}
+								}
+								.post_user_social_sharecontent{width:190px; right: 0}
+								.post_user_social_moodcontent{width:15.5rem; left:0;}
+								.post_user_social_sharecontent,
+								.post_user_social_moodcontent {position:absolute; bottom:0; background-color:#fff; display:none; border-radius: 3px;  z-index:1; -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.25); box-shadow: 0 0 10px 1px rgba(0,0,0,.25);
+									a {font:100 14px 'OpenSansRegular', arial, sans-serif; color:#405365; padding:5px; text-decoration:none; display:block;
+										&:hover {background-color: #ccc}
+										i{margin-right:10px; font-size: 21px;}
+									}
+									span.bounce_button{display:inline-block; vertical-align:top; margin:0; padding:5px; position: relative;
+										input {visibility:hidden; position: absolute; top:12px; left:12px;}
+										label {cursor:pointer; font-size: 28px; color:#405365;}
+										input:checked + label {border:#ccc 3px solid; border-radius: 10px;}
+									}
+								}
+								&:hover .post_user_social_sharecontent,&:hover .post_user_social_moodcontent{display:block; transition-delay:5s;}
+								&:hover .post_user_social_sharebtn,&:hover .post_user_social_moodbtn{text-decoration:none; }
+							}
+						}
+					}
+
+				}
+			}
+
+		}
+
+	}
+}

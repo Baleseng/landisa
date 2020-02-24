@@ -1,0 +1,44 @@
+.admin-profile-container{width:1245px; height:600px; margin:auto; padding:15px; position:relative; top:3.5em;
+	.admin-profile-row{display:block;
+		
+		.admin-profile-col-1{width:14em;}
+		.admin-profile-col-2{width:26.25em;}
+		.admin-profile-col-1,.admin-profile-col-2{float:left; min-height:200px; margin-left:25px; margin-right:25px;
+			
+			.admin-profile-img{width:100%; height:200px; overflow:hidden;
+				img{width:100%; color:#cccccc; font-size:15.35em; text-align:center; line-height:1.1em;}
+			}
+
+			.admin-profile-name{width:100%;
+				h1{font-family: 'OpenSansRegular', arial, sans-serif; color:#405365;}
+				.admin-profile-interest{margin:5px 0;
+					b{color:#f26522; font:normal 12px arial, sans-serif;}
+					span{color:#333333;text-indent: 15px; font:normal 12px arial, sans-serif;}
+				}
+				.admin-profile-title{position:relative; margin: 25px 0;
+					.admin-profile-border{border-top:1px solid #a1a1a1; width:100%; position:absolute; top:.5em;}
+					.admin-profile-h5{background:#f2f2f2; min-width:50px; padding-right:5px;  display:table; position:relative; z-index:1; text-transform:uppercase; font:bold 11px 'OpenSansRegular', arial, sans-serif; color:#a1a1a1;}
+				}
+				span.ranking-number{font:bold 28px 'OpenSansRegular', arial, sans-serif; color:#f26522; display:block;}
+				.admin-profile-raking{margin-top:15px; padding:0;
+					i.ranked{color:#f26522;}
+					i.unranked{color:#f2f2f2;}
+				}
+			}
+
+			.admin-profile-info{margin-top:15px; padding:0;
+				.admin-profile-title{position:relative; margin:25px 0;
+					.admin-profile-border{border-top:1px solid #a1a1a1; width:100%; position:absolute; top:.5em;}
+					.admin-profile-h5{background:#f2f2f2; min-width:50px; padding-right:5px;  display:table; position:relative; z-index:1; text-transform:uppercase; font:bold 11px 'OpenSansRegular', arial, sans-serif; color:#a1a1a1;}
+				}
+				.admin-profile-li{padding:5px 0;
+					i{font-size:9px;}
+					h6{font-family: 'OpenSansRegular', arial, sans-serif; color:#333333;}
+					b{color:#f26522; font:normal 12px arial, sans-serif;}
+					span{color:#333333;text-indent: 15px; font:normal 12px arial, sans-serif;}
+				}
+			}
+
+		}
+	}
+}

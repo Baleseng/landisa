@@ -1,0 +1,38 @@
+.user-profile-container{background:#ffffff; padding:10px;
+	.user-profile-row{display:block;
+		
+		.user-profile-name{
+			h1{font-family: 'OpenSansRegular', arial, sans-serif; color:#405365;}
+			h6{font-family: 'OpenSansRegular', arial, sans-serif; color:#405365; margin-top:15px;}
+		}
+
+		.user-profile-edit-btn{
+			span{display:block; background-color:#f26522; font:bold 12px arial, sans-serif; color:#333333; text-align:center; text-transform:uppercase; cursor:pointer;}
+		}
+
+		.user-profile-col-1,.user-profile-col-2{ min-height:50px; 
+			.user-profile-info{width:100%; margin-top:15px; padding:0;
+				.user-profile-title{position:relative; margin:15px 0;
+					.user-profile-border{border-top:1px solid #a1a1a1; width:100%; position:absolute; top:.5em;}
+					.user-profile-h5{background:#f2f2f2; min-width:50px; padding-right:5px;  display:table; position:relative; z-index:1; text-transform:uppercase; font:bold 11px 'OpenSansRegular', arial, sans-serif; color:#a1a1a1;}
+				}
+				span.ranking-number{font:bold 28px 'OpenSansRegular', arial, sans-serif; color:#405365; display:block;}
+				.user-profile-raking{margin-top:15px; padding:0;
+					i.ranked{color:#f26522;}
+					i.unranked{color:#d9d9d9;}
+				}
+
+				.user-profile-title{position:relative; margin:15px 0;
+					.user-profile-border{border-top:1px solid #a1a1a1; width:100%; position:absolute; top:.5em;}
+					.user-profile-h5{background:#f2f2f2; min-width:50px; padding-right:5px;  display:table; position:relative; z-index:1; text-transform:uppercase; font:bold 11px 'OpenSansRegular', arial, sans-serif; color:#a1a1a1;}
+				}
+				.user-profile-li{padding:5px 0;
+					i{color:#f26522;}
+					h6{font-family: 'OpenSansRegular', arial, sans-serif; color:#333333;}
+					b{color:#405365; font:bold 12px arial, sans-serif;}
+					span{display:block; color:#333333; font:normal 12px arial, sans-serif;}
+				}
+			}
+		}
+	}
+}

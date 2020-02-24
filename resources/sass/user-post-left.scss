@@ -1,0 +1,14 @@
+.post-user-board-left-wrap,
+	.post-board-left-wrap{min-height:15px; 
+
+		.post-board-disclaimer{padding:10px 0; min-height: 50px; border-top:1px solid #d0dade; 
+			ul{list-style-type:disc; margin: 0; 
+				li{display: inline-block; margin:5px;
+					a{font:normal 12px arial, sans-serif; color:#405365;
+						&:hover{text-decoration:underline;}
+					}
+				}
+			}
+		}
+
+	}

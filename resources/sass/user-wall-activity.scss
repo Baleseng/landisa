@@ -1,0 +1,27 @@
+.user-activity-container{
+
+	.user-activity-row{width:100%;
+		h3{font-family:'OpenSansRegular', arial, sans-serif; text-align:center;}
+
+		.user-activity-views{	
+			.user-activity-block{background:#405365;
+				.user-activity-block-head{background:#374654; width:100%; text-transform:uppercase; font:normal 12px arial, sans-serif; color:#d0dade; padding:5px;
+					.user-activity-post{color:#e5b363;}
+					.user-activity-comment{color:#ce6b6c;}
+					.user-activity-mood{color:#a69ddc;}
+					.user-activity-message{color:#71b2c3}
+				}
+				.user-activity-block-body{width:100%;
+					.user-activity-block-col-1,
+					.user-activity-block-col-2{
+						h1{font-family: arial, sans-serif; color:#d0dade;}
+						i{color:#d0dade;}
+					}
+				}
+				.user-activity-block-foot{background:#d0dade; width:100%; height:25px;}
+			}
+		}
+
+	}	
+	
+}

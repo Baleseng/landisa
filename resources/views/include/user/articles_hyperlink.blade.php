@@ -1,0 +1,1 @@
+{{ $articles->section }}/{{ $articles->id }}-{{ str_replace(' ', '-', $articles->title) }}

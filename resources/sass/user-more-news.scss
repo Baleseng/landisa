@@ -1,0 +1,47 @@
+@mixin hover-shadow{bottom:0px; -moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); }
+@mixin card-shadow{background-color:#f5f5f5; position:relative; bottom: -3px; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+	-moz-box-shadow:none;-webkit-box-shadow:none; box-shadow:none;
+}
+@mixin span-style {font:100 12px arial, sans-serif; text-transform: capitalize;}
+
+@mixin section-headline-wrap {position:relative; width:100%; margin-bottom:25px;}
+@mixin section-headline-border {position:absolute; top:1.25em; width:100%; border-top:2px #405365 solid;}
+@mixin section-headline-text {position:relative; z-index:1; display:table; min-width:100px; margin:auto; padding:0 15px; background:#f2f2f2; font:bold 1.75em 'OpenSansRegular', arial, sans-serif; color:#405365; text-transform:capitalize;}
+
+
+.more-section-container{position:relative; min-height:600px; margin:15px auto 3.5em;
+	
+	.more-article-container{min-height:100px;
+		.more-article-wrap{@include hover-shadow; background-color:#f2f2f2; position:relative; bottom: 0; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+			.more-article-subsection{position:absolute; z-index:1; display:table; width:fit-content; padding:5px; font:normal 11px 'OpenSansRegular', arial, sans-serif; text-transform:uppercase;}
+			.more-article-image{overflow:hidden; position:absolute;
+				img{width:100%; margin:auto 0; position:absolute; top:-9999px; bottom:-9999px; left:0; right:0;  
+					-webkit-transition:width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+	    		transition: width 1s, height 1s;
+					&:hover{width:105%;}
+				}
+			}
+			.more-article-heading{overflow: hidden; padding:0 5px;
+				a{font:normal 16px 'OpenSansRegular', arial, sans-serif;}
+			}
+
+			.more-article-synopsis{overflow:hidden; padding:5px;
+				a{font:14px Op, Arial;}
+				p{font:14px Op, Arial; line-height: 17px;}
+			}
+
+			span.published{display:block; color:#a1a1a1; @include span-style}
+			
+			.more-article-info{border-top: 1px solid #ccc; padding: 5px;
+				/*START VIEW COMMENT SHARE STATUS RESULTS*/
+				ul{display:inline-block; list-style: none; width:100%; 
+					li{display:inline-block; width:4.25em;
+						dl{vertical-align:middle; color:#cccccc; font-size:16px;}
+						b{display:inline-block; vertical-align:middle; font:normal 14px arial, sans-serif; line-height:12px; width:28px;}
+					}
+				}	
+			}
+			&:hover{@include card-shadow}
+		}
+	}
+}

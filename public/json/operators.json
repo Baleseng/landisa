@@ -1,0 +1,47 @@
+[
+	{
+		"code3": "AGO",
+		"z": 0,
+		"code": "AO"
+	},
+	{
+		"code3": "BWA",
+		"z": 4,
+		"code": "BW"
+	},
+	{
+		"code3": "KEN",
+		"z": 0,
+		"code": "KE"
+	},
+	{
+		"code3": "MOZ",
+		"z": 0,
+		"code": "MZ"
+	},
+	{
+		"code3": "NAM",
+		"z": 1,
+		"code": "NA"
+	},
+	{
+		"code3": "TZA",
+		"z": 2,
+		"code": "TZ"
+	},
+	{
+		"code3": "ZAF",
+		"z": 3,
+		"code": "ZA"
+	},
+	{
+		"code3": "ZMB",
+		"z": 0,
+		"code": "ZM"
+	},
+	{
+		"code3": "ZWE",
+		"z": 0,
+		"code": "ZW"
+	}
+]

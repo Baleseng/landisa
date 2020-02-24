@@ -1,0 +1,78 @@
+.gallery-article-container{top:5em; width:1245px;
+    .gallery-article-wrap{width:1245px;}
+  }
+
+
+  .galleryparallax{height:29em; position:relative; top:4em;
+    .galleryparallaxcontainer{
+      .mediaphotoswrapper{width:1248px;
+
+        .callbacks_container{width:800px; height: 32em; display:inline-block; vertical-align:top; margin-right:40px;
+          .callbacks{height: 540px;
+            img {margin:0 40px;}
+          }
+        }
+
+        .gallery-content-sidebar{display:inline-block; vertical-align:top; width:400px; 
+          .gallery-list-header{padding:0 0 10px;}
+          .gallery-list-container{
+            .gallery-list-content{height:23em; display:block;
+              .gallery-list-row{margin:15px 0; width:24.1em; display:block;
+                .gallery-list-block{width:8em; height:80px;}
+                .gallery-list-title{width:15.2em; margin-left:5px;}
+              }
+            }
+          }
+        }
+
+        .audio_container{display:inline-block; vertical-align:top;  width:780px; height:27em; margin-right:50px;
+          audio{display:block; margin:25% auto;}
+        }
+        .iframe_container{display:inline-block; vertical-align:top;  width:780px; height:27em; margin-right:50px;}
+        .video_container{display:inline-block; vertical-align:top;  width:780px; height:27em; margin-right:50px;}
+        
+      }
+    }
+  }
+
+  .gallery-interactive-container{width: 1245px; margin:0 auto; top:4em; min-height:100px;
+    .gallery-interactive-wrap{display:inline-block; vertical-align:top; width:780px; margin-right:50px; 
+      .gallery-interactive-resultsbtn{width:100%; margin:20px 0 15px;      
+        ul{display:inline-block;
+          li{width:12em;}
+        }
+      }
+      .gallery-interactive-socialbtn{width:780px;
+        .moodbtn,.sharebtn,.mailbtn,.loadbtn{width:195px;
+          a.interactive-btn{padding:5px 4.2em;}
+        }
+      }
+
+      .gallery-interactive-comment{width:780px;
+        .heading{width:725px;}
+        .commentsbox{width:760px;
+          textarea{width:90%;}
+          .commentbtn{
+            .commentcounter{width:617px;}
+          }
+        }
+        .outputdelcomment{width:10px; height:50px; margin:20px 0 0 0;}
+      }
+    }
+    .gallery-trending_container{display:inline-block; vertical-align:top; width:400px; height: 34em;
+      .gallery-trending-heading{font:normal 16px 'OpenSansRegular', arial, sans-serif;}
+      .gallery-trending-wrapper{width:100%; height: 30em;
+        .gallery-trending-row{width:400px; margin:0px 0 1.18em;
+          .gallery-trending-img{height:80px; width:8em; display:inline-block; vertical-align:top;
+            .gallery-btn-id{padding:1em 40%}
+          }
+          .gallery-trending-title{width:260px; display:inline-block; vertical-align:top; margin-left:5px;
+            h5{display:block; height:40px; 
+              a{font:normal 14px 'OpenSansRegular', arial, sans-serif; line-height:20px;}
+            }
+            span{width:100%;}
+          }
+        }
+      }
+    }
+  }

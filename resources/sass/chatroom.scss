@@ -1,0 +1,107 @@
+
+.arrow-box-right {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}
+.arrow-box-right:after, .arrow-box-right:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow-box-right:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #88b7d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow-box-right:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #c2e1f5;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+
+.arrow-box-left {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}
+.arrow-box-left:after, .arrow-box-left:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow-box-left:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #88b7d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow-box-left:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #c2e1f5;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+
+#scroll-y::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5;}
+#scroll-y::-webkit-scrollbar{width:0;background-color: #F5F5F5;}
+#scroll-y::-webkit-scrollbar-thumb{background-color:  #61bcea;}
+
+.chatroom-container{position:relative; width:100%; top:2.5em;
+	.chatroom-user-container{ height:100%; width:300px; position:fixed; overflow-x: hidden; padding-top: 20px;	
+		a{padding:10px; text-decoration:none; font-size:14px; color:#11110d; display:block; cursor: pointer;
+			img.c-user-image{overflow:hidden; color:#f2f2f2; text-align:center; font-size:3em; padding:5px; display:inline-block; vertical-align:middle; width:45px; height:45px; border-radius:35px; background:#cccccc;}
+			span.c-user-name{display:inline-block; vertical-align:middle; margin-left:10px;}
+		}
+
+		/* Add an active class to the active dropdown button */
+		.active { background-color:#11110d; color:white !important;
+			i{color:white;}
+		}
+
+		/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+		.dropdown-container { display:none;
+			a.dropdown-link{ background:#eeeeee; border-bottom: 1px solid white; }
+		}
+	}
+	 
+	.chatroom-msg-container{ width:970px; min-height:100%; background:#f9f9f9;  position:absolute; right:0; top:0; padding-top:5px;
+		
+		.c-msg-output-container{width:100%; height:80vh; background-color:white; position: relative;
+			ul{ list-style: none;
+				li{margin:15px; display:block;
+					span.c-msg-primary-user{float:right; background-color:#d0dade; }
+					span.c-msg-secondary-user{float:left; background-color:#f2f2f2; }
+					span.c-msg-primary-user,
+					span.c-msg-secondary-user{max-width:300px; display:block; padding:10px; border-radius:5px;}
+				}
+			}
+
+		}
+		
+		.c-msg-input-container{background:#eeeeee; padding:5px; width:100%;
+			.c-msg-insert-wrap{width:100%; padding:10px; margin-bottom:15px; border-bottom:1px solid #cccccc;}
+			input[type=text].c-msg-input{padding:15px; width:95%; display:inline-block; vertical-align:middle; border-radius:5px; border:1px solid #aaaaaa;}
+			button.c-msg-btn{display:inline-block; vertical-align:middle; background:#f26522; padding:10px; border-radius:5px; border:1px solid #f26522;
+				i{color:#000000; font-size:21px;}
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,34 @@
+.tb-container {
+  position: relative;
+  top: 3em;
+}
+
+.tb-container .tb-wrapper {
+  width: 768px;
+  margin: auto;
+}
+
+.tb-container .tb-wrapper .tb-row {
+  float: left;
+  width: 50%;
+}
+
+.tb-container .tb-wrapper .tb-row .tb-col:nth-child(even) {
+  background: #f4f4f4;
+}
+
+.tb-container .tb-wrapper .tb-row .tb-col:nth-child(odd) {
+  background: #e4e4e4;
+}
+
+.tb-container .tb-wrapper .tb-row .tb-col {
+  padding: 5px;
+  height: 30px;
+  font: 12px Op, Arial;
+  color: #333;
+}
+
+.tb-container .tb-wrapper .tb-row .tb-col img {
+  width: 25px;
+}
+

@@ -1,0 +1,79 @@
+// colors
+$white: rgba(254, 255, 250, 1);
+$grey: rgba(220, 231, 235, 1);
+$lightgrey: rgba(238, 241, 243, 1);
+$darkgrey: rgba(192, 200, 208, 1);
+$orange: rgba(242, 101, 34, 1);
+$black: rgba(0, 0, 0, 1);
+
+
+.community-mask{position:relative; top:0; width:100%; height:100%; background-color:#f2f2f2; display:table; transition:opacity .3s ease;
+  .community-wrapper{display:table-cell; vertical-align: middle;
+    
+    .community-addedit-container{width:900px; margin:0px auto; padding:15px; background-color:#fff; border-radius:2px; box-shadow:0 2px 8px rgba(0, 0, 0, .33); transition:all .3s ease; font-family:Helvetica, Arial, sans-serif;
+      .community-header{width:100%;
+        h3{font:bold 14px 'OpenSansRegular', arial, sans-serif; margin-top:0; color:#405365; text-transform:uppercase; display:inline-block; vertical-align:middle; width:45em;}
+        .community-default-button{display:inline-block; vertical-align:middle; color:#405365; font-size:20px;}
+      }
+      .community-form-input{margin:20px 0;
+        .input-article{
+          .input-article-title{display:block; width:100%;  height:80px; resize:none; border-bottom:none; padding:5px; background:#ffffff; font:normal 21px 'OpenSansRegular', arial, sans-serif; color:#405365; 
+            -moz-box-shadow:2px 2px 0 0 #e5e5e5;-webkit-box-shadow: 2px 2px 0 0 #e5e5e5; box-shadow: 2px 2px 0 0 #e5e5e5;
+            &::-webkit-input-placeholder {  /* Chrome/Opera/Safari */ text-transform:uppercase; color:#cccccc;}
+            &::-moz-placeholder { /* Firefox 19+ */ text-transform:uppercase; color:#cccccc;}
+            &:-ms-input-placeholder { /* IE 10+ */ text-transform:uppercase; color:#cccccc;}
+            &:-moz-placeholder { /* Firefox 18- */ text-transform:uppercase; color:#cccccc;}
+          }
+        }
+      }
+      .community-form-textarea{margin:20px 0;
+        ckeditor.article{resize:none; font:normal 12px 'OpenSansRegular', arial, sans-serif; color:#405365; width:100%; height:480px; background:#f2f2f2;
+          &::-webkit-input-placeholder {  /* Chrome/Opera/Safari */ text-transform:uppercase; color:#cccccc;}
+          &::-moz-placeholder { /* Firefox 19+ */ text-transform:uppercase; color:#cccccc;}
+          &:-ms-input-placesholder { /* IE 10+ */ text-transform:uppercase; color:#cccccc;}
+          &:-moz-placeholder { /* Firefox 18- */ text-transform:uppercase; color:#cccccc;}  
+        }
+      }
+      .community-form-bottom-wrap{margin-top:20px; width:100%;
+        .community-form-select{display:inline-block; width:670px; vertical-align: top;
+          .radio_btn_question{font:bold 12px 'OpenSansRegular', arial, sans-serif; color:#405365; text-transform:uppercase; margin-bottom:5px;}
+          .radio_group {position:relative; padding:0; display:inline-block; margin-right:15px;
+            // hide radio input
+            input[type="radio"] {display:none; 
+              // style span within the label
+              & + label span { position:relative; font:bold 12px 'OpenSansRegular', arial, sans-serif; color:#405365; text-transform:uppercase; display:inline-block; vertical-align:middle; cursor:pointer; margin-bottom:0.5em; line-height:1.2; clear:both; padding-left:1.95em;
+                &:before {position:absolute; content:""; border:6px solid $darkgrey; background:$darkgrey; border-radius:50%; width:8px; height:8px; left:0; margin-top:-2px;}
+              }
+              // style :checked input span
+              &:checked + label span {
+                &:before {border:6px solid $orange; background:$black; color: $orange;}
+              }
+            }
+          }
+        }
+        .community-form-button{display:inline-block; vertical-align: top; width:195px;
+          i{margin:0 5px;}
+          a.btn-article-cancel{background:#cccccc;}
+          button.btn-article-submit{background:#f26522;}
+          a.btn-article-cancel,button.btn-article-submit{display:inline-block; padding:10px 5px; 
+            font:700 12px 'OpenSansRegular', arial, sans-serif; color: #333; text-transform:uppercase; text-align:center;
+            &:hover{background: #ccc;}
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+.community-enter {opacity: 0;}
+.community-leave-active {opacity: 0;}
+.community-enter .community-container,
+.community-leave-active .community-container {-webkit-transform: scale(1.1);transform: scale(1.1);}

@@ -1,0 +1,17 @@
+.footer-container{padding:5px 0; 
+  .footer-wrap{margin:0 15px;
+    .footer-row{width:100%; display:table;
+      .footer-col-1{width:570px;}
+      .footer-col-2{width:260px;}
+      .footer-col-3{width:250px;}
+      .footer-col-1,.footer-col-2,.footer-col-3{display:inline-block;
+        
+        .footer-geoflag,
+        .footer-geoweather,
+        .footer-geolocation,
+        .footer-copyright,.footer-logo{display:inline-block; vertical-align:middle;}
+
+      }
+    }
+  }
+}

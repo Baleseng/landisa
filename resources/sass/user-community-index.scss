@@ -1,0 +1,46 @@
+@mixin hover-shadow{bottom:0px; -moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); }
+@mixin card-shadow{background-color:#f5f5f5; position:relative; bottom: -3px; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+  -moz-box-shadow:none;-webkit-box-shadow:none; box-shadow:none;
+}
+.community-section-container{position:relative; min-height:370px; margin:5px auto;
+  .community-stories-wrapper{min-height:100px; position:relative;
+    
+    .community-section-articel-btn{padding: 3px 15px; margin:2.5em 0 15px;
+      a{font:900 14px 'OpenSansRegular', arial, sans-serif; color:#333;  text-transform: uppercase;
+        i{margin-right:5px; }
+      }
+    }
+    
+    .community-stories-wrap{background-color:#f2f2f2; @include hover-shadow; position:relative; bottom: 0; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+      .community-stories-subsection{position:absolute; z-index:1; display:table; width:fit-content; padding:5px; font:normal 11px 'OpenSansRegular', arial, sans-serif; text-transform:uppercase;}
+      .community-stories-image{overflow:hidden; position:relative; margin:10px auto 5px; border-radius:50px;
+        img{width:100%; margin:auto 0; left:0; right:0;  color:#aaaaaa; font-size:7em; text-align:center;
+          -webkit-transition:width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+          transition: width 1s, height 1s; &:hover{width:105%;}
+        }
+      }
+      .community-stories-heading{overflow: hidden; padding:0 10px;
+        a{font:normal 16px 'OpenSansRegular', arial, sans-serif; line-height:16px; color: #405365;
+          &:hover{color:#f26522;}
+        }
+      }
+      .community-stories-synopsis{overflow:hidden; padding:10px;
+        a{font:14px Op, Arial;}
+        p{font:14px Op, Arial; line-height: 18px; color: #333333;&:hover{color:#f26522;}}
+      }
+
+      span.published{display:block; color:#a1a1a1; font:100 12px arial, sans-serif; text-transform: capitalize; margin:10px 10px}
+
+      .community-stories-info{border-top: 1px solid #ccc; padding: 5px;
+        /*START VIEW COMMENT SHARE STATUS RESULTS*/
+        ul{display:inline-block; list-style: none; width:100%; 
+          li{display:inline-block; width:4.25em;
+            i{vertical-align:middle; color:#cccccc; font-size:16px;}
+            b{display:inline-block; vertical-align:middle; font:normal 14px arial, sans-serif; color:#f26522; line-height:12px; width:28px;}
+          }
+        } 
+      }
+      &:hover{@include card-shadow}
+    }
+  }
+}

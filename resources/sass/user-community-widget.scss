@@ -1,0 +1,91 @@
+.community-widget-container{
+  
+  .community-widget-row{background-color:#d0dade;
+    .community-widget-col-0,
+    .community-widget-col-1{min-height:50px;
+
+      .community-widget-btn{background-color:transparent; perspective:1000px;
+        .community-widget-inner{position:relative; text-align:center; transition:transform 0.6s; transform-style:preserve-3d;
+          
+          .community-community{background:-webkit-linear-gradient(#e6911b, #f1ae63 40%, #fccf9f)}
+          .community-story{background:-webkit-linear-gradient(#d0665f, #f2a98c 40%, #f8c3b8)}
+          .community-gallery{background:-webkit-linear-gradient(#44792f, #8db088 40%, #bacd7a)}
+          .community-video{background:-webkit-linear-gradient(#5d7f92, #a7bdca 40%, #b7d3d7)}
+          .community-widget-front{z-index:2;}
+          .community-widget-back{color:white;  transform:rotateY(180deg); z-index:1; background:-webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);}
+          
+          .community-widget-front,.community-widget-back{position:absolute; width:100%; height:100%; backface-visibility:hidden; 
+            span.community-widget-unlink,
+              a.community-widget-link{ color:#405365; display:block; text-transform: uppercase;
+              i{display:block; color:#405365;}
+              b{display:block;}
+            } 
+          }
+
+        }
+        &:hover .community-widget-inner{transform: rotateY(180deg);}
+      }
+    
+      span.community-widget-section{position: absolute; display:block; padding:.25em;
+        i{font-size: 16px; color:#ffffff;}
+      }
+      .community-widget-story{background:white; @include hover-shadow;
+        &:hover{@include card-shadow}
+
+        .community-widget-h3{padding:5px 0; background:#405365; font:bold 1em 'OpenSansRegular', arial, sans-serif; color:#f5f5f5; text-transform:uppercase; text-align:center;}
+
+        .community-widget-img{overflow:hidden;
+          a{ 
+            img{width:100%;-webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+            transition: width 1s, height 1s; &:hover{width:110%;}}
+          }
+        }
+        .community-widget-heading{
+          a.community-widget-title{display:block; overflow:hidden; margin-top:5px; font:normal 1.25em 'OpenSansRegular', arial, sans-serif; color:#405365;}
+          span.subsection{display:block; color:#405365; @include span-style}
+        }
+
+        p.community-widget-synop{display:block; overflow:hidden; padding:5px; margin-bottom:5px; font:normal 14px arial, sans-serif; color:#405365;}
+        
+        .community-widget-status{border-top: 1px solid #ccc; padding:5px;
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{display:inline-block; list-style: none; 
+            li{display:inline-block;
+              i{vertical-align:middle; color:#cccccc; font-size:16px;}
+              b{display:inline-block; vertical-align:middle; font:normal 12px arial, sans-serif; color:#405365; line-height:12px; width:28px;}
+            }
+          }
+          span.published{display:inline-block; color:#a1a1a1; @include span-style}
+        }
+      }
+
+
+
+      .communty-multimedia{background-color:#333333;
+
+        .community-widget-h3-media{padding:5px 0; background:#f26522; font:bold 1em 'OpenSansRegular', arial, sans-serif; color:#f2f2f2; text-transform:uppercase; text-align:center;}
+        
+        ul.community-widget-ul-media{list-style:none; 
+          li.community-widget-li-media{@include hover-shadow; position:relative; display:inline-block; vertical-align:top; overflow:hidden;  
+            
+            img{width:100%;}
+
+            a.community-widget-info{position:absolute; bottom:0; left:0; width:100%; height:100%; opacity:1; text-align:center; color:rgba(255,255,255,.25);
+              
+              &:hover{opacity:1; color:white; background-color:rgba(0,0,0,.5);} 
+            }
+
+            &:hover{@include card-shadow}
+          }
+        }
+      }
+      
+    }
+  }
+
+  .community-widget-headline-wrap{ @include section-headline-wrap;
+    .community-widget-border{ @include section-headline-border; }
+    .community-widget-headline{ @include section-headline-text; }
+  }
+
+}

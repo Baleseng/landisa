@@ -1,0 +1,1 @@
+<script src="{{ url('js/cms-realtime-editors.js') }}"></script>

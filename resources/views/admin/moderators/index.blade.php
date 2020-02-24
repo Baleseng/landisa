@@ -1,0 +1,1 @@
+@include('include.admin.profile_moderator_index')

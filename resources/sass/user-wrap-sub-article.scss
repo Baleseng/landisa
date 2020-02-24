@@ -1,0 +1,27 @@
+
+	.content-sub-article-row{@include hover-shadow;
+		span.content-section{position: absolute; display:block; padding: .25em;
+			i{font-size: 16px; color:#ffffff;}
+		}
+		.content-sub-article-img{overflow:hidden;
+			a{ 
+				img{width:100%;-webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+				transition: width 1s, height 1s; &:hover{width:110%;}}
+			}
+		}
+		.content-sub-article-heading{
+		  a{display:block; overflow:hidden; margin-top:5px; font:normal .95em 'OpenSansRegular', arial, sans-serif; color:#405365;}
+			span.subsection{display:block; @include span-style}
+		}
+		.content-sub-article-status{border-top: 1px solid #ccc; padding: 5px;
+			/*START VIEW COMMENT SHARE STATUS RESULTS*/
+			ul{display:inline-block; list-style: none; 
+				li{display:inline-block;
+					i{vertical-align:middle; color:#cccccc; font-size:16px;}
+					b{display:inline-block; vertical-align:middle; font:normal 12px arial, sans-serif; line-height:12px; width:28px;}
+				}
+			}
+			span.published{display:inline-block; color:#a1a1a1; @include span-style}
+		}
+		&:hover{@include card-shadow}
+	}

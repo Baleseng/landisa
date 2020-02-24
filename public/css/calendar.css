@@ -1,0 +1,58 @@
+.article-publish-date {
+  position: relative;
+  margin: 10px 0;
+  width: 48.85%;
+  display: inline-block;
+}
+
+.article-publish-date input[type=text] {
+  position: relative;
+  width: 100%;
+  font: normal 14px "OpenSansRegular", arial, sans-serif;
+  color: #405365;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.article-publish-date input[type=text]::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #405365;
+}
+
+.article-publish-date input[type=text]::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #405365;
+}
+
+.article-publish-date input[type=text]:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #405365;
+}
+
+.article-publish-date input[type=text]:-moz-placeholder {
+  /* Firefox 18- */
+  color: #405365;
+}
+
+.article-publish-date i {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  z-index: 1;
+  color: #405365;
+  font-size: 20px;
+}
+
+.custom-date-style {
+  background-color: red !important;
+}
+
+.input-wide {
+  width: 500px;
+}
+

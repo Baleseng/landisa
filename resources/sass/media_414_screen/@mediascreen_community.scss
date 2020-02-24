@@ -1,0 +1,127 @@
+.community-stories-container{width:400px; margin:0 auto; top:60px;
+  .community-stories{width:400px; display:inline-block; vertical-align:top;
+    
+    .community-stories-top{width:100%;
+      .community-stories-user{width:150px; height:100%; display:inline-block; vertical-align:top;
+        .community-stories-user-img{width:100%; height: 120px;}
+      }
+      .community-stories-title{width:620px; height:100%; display:inline-block; vertical-align:top;
+        h1{height:85px;}
+      }
+    }
+
+    .community-stories-wrap{
+      
+      .community-stories-full{display:block; width:100%; margin: 0 auto;}
+
+      .community-stories-btn-wrap{margin: 15px 0 0;  display: table; 
+        .community-stories-btn-socialbtn{width:100%;
+          .moodbtn-inactive,.sharebtn-inactive,.moodbtn,.sharebtn,.mailbtn,.loadbtn{width:200px;
+            a.interactive-btn,
+            i.interactive-btn{padding:5px 4.2em;}
+          }
+        }
+      }
+    }
+    .interactive-comment{width:100%;
+      .heading{width:100%}
+      .commentsbox{width:760px;
+        textarea{width:92%;}
+      }
+      .outputdelcomment{width:10px; height:50px; margin:20px 0 0 0;}
+    }
+  }
+}
+
+.community-widget-container{width:400px; min-height:50px; margin:0 auto 2em; position:relative; top:6em;
+  .community-widget-row{width:100%; padding:15px; 
+    .communiy-side-margin{margin:0;}
+
+    .community-widget-col-0,
+    .community-widget-col-1{width:370px; margin-bottom:10px;
+      
+      .community-widget-btn{width:100%; height:130px; margin:5px 0; display:inline-block; vertical-align:top;
+        .community-widget-inner{ width:100%; height:100%;
+          
+          .community-widget-front,.community-widget-back{
+            span.community-widget-unlink,
+              a.community-widget-link{font:normal 14px 'OpenSansRegular', arial, sans-serif; padding:3.5em 0;
+              i{font-size:3em;}
+              b{font:normal 12px 'OpenSansRegular', arial, sans-serif; padding:20px 0;}
+            } 
+          }
+
+        }
+      }
+
+      .communty-multimedia{
+        ul.community-widget-ul-media{
+          li.community-widget-li-media{width:95%; height:180px; margin:.533em;
+          	a.community-widget-info{padding:4em 0;
+              i{font-size:31px;}
+            }
+          }
+        }
+      }
+
+      .community-widget-story{
+        .community-widget-img{height:15em; width:100%;}
+        .community-widget-heading{width:100%; padding: 10px;
+          a.community-widget-title{line-height:21px; height:3.5em;}
+          span.subsection{width:100%;}
+        }
+        
+        p.community-widget-synop{line-height:18px; height:8.15em;}
+        
+        .community-widget-status{
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:280px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+    }
+  }
+}
+
+.community-section-container{width:400px; top:0;   
+  .community-stories-wrapper{display:inline-block; vertical-align:top; width:815px; margin-right:29px;
+    .community-stories-wrap{width:265px; height:295px; margin:0 2px 10px; display:inline-block; vertical-align:top; 
+      .community-stories-image{width:105px; height:100px;}
+      .community-stories-heading{height:55px;}
+      .community-stories-synopsis{height:60px;}
+      .community-stories-info{margin:0;
+        span{width:200px;}
+      }
+    }
+  }
+}
+
+
+.community-section-wrapper{top:5em;}
+.community-article-wrapper{top:0;}
+.community-index-wrapper,
+.community-section-wrapper,
+.community-article-wrapper{display:inline-table; vertical-align:top; width:450px; min-height:545px;
+  .community{display:block; width:100%; min-height:25px;
+    .community-intro{width:100%;}
+    .community-btn{width:100%}
+  }
+  .community-user-articles-container{display:inline-block; vertical-align:top; width:400px;
+    
+    .content-stories-row{width:400px; margin:0 0 15px;
+      .content-stories-img{height:4.45em; width:5em; display:inline-block; vertical-align:top;}
+      .content-stories-heading{width:310px; display:inline-block; vertical-align:top; margin-left:5px;
+        a{height:3em;}
+        span.subsection{width:100%;}
+      }
+      .content-stories-status{
+        /*START VIEW COMMENT SHARE STATUS RESULTS*/
+        ul{width:310px; 
+          li{width:4.25em;}
+        }
+      }
+    }
+
+  }
+}

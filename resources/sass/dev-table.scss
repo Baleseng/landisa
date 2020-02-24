@@ -1,0 +1,11 @@
+.tb-container{ position:relative; top:3em;
+	.tb-wrapper{width: 768px; margin:auto;
+		.tb-row{float:left; width:50%;
+			.tb-col:nth-child(even){background:#f4f4f4;}
+      .tb-col:nth-child(odd){background:#e4e4e4;}
+			.tb-col{padding:5px; height:30px; font: 12px Op, Arial; color:#333;
+				img{width:25px;}
+			}
+		}
+	}
+}

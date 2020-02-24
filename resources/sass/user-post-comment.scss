@@ -1,0 +1,101 @@
+		.commentcontainer{min-height:1px; display:block; margin-bottom: 10px;
+			.comment{box-sizing: border-box;
+				.image{display:inline-block; width:55px; height:55px; overflow:hidden; position: relative;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:3.5em; text-align:center;}
+				}
+				.headingpost{display:inline-block; width:125px; min-height:35px; margin:0 5px;
+					h4{
+						a{font:bold 12px Op, Arial; color:#405365; text-transform:capitalize;}
+					}
+					span{font:13px Op, Arial; color:#ccc;}
+				}
+				.formfield{display:block;
+					.image{display:inline-block; width:40px; height:40px; overflow:hidden; vertical-align:top;
+						img{ width:100%;}
+					}
+					.form{display:inline-block; overflow-x:hidden; position:relative;
+						textarea{float:left; outline:none; height:50px; padding:5px; resize:none; background-color:#f2f2f2; border:none; font: 12px Op, Arial; color:#333;}	
+						button{float:right; font:100 21px 'OpenSansRegular', arial, sans-serif; color:#333; text-transform:capitalize; background:#FF5722; 
+						-moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+					}
+					.commentbtn{margin:0; display:block;
+						.commentinsertbtn{position: absolute; top:0; right:45px; padding:0; font:100 12px 'OpenSansRegular', arial, sans-serif; color:#FF5722;
+						span#animate-btn{font-size:15px;}
+						span#emoji-btn{font-size:16px;}
+						span{display:inline-block; padding:.35em .25em; text-align:center; cursor:pointer; color:#cccccc; 
+							&:hover{color:#a1a1a1;}
+						}
+					}
+					.commentshare{display:inline-block; vertical-align:top;padding:5px 0; width:80px;  font:100 12px 'OpenSansRegular', arial, sans-serif; color:#333;
+						#share{display:inline-block; vertical-align:top; width:20px; height:15px; background-size:350px; background-position:-30px -2px;}
+					}
+				}
+			}
+		}
+
+		.showpostcomments{margin:0 auto; padding:0; min-height:100px;
+			.outputpostcomment{display:table; margin-bottom:15px; width:100%;
+				.image{display:inline-block; vertical-align:top; border:1px solid #ccc; width:50px; height:50px; margin-right:5px; overflow:hidden; position:relative;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:50px; text-align:center;}
+				}
+				.output{display:inline-block; vertical-align:middle;		
+				.arrow_box {position:relative; left:3px; max-width:400px;
+					a{display:block; font:normal 12px Op, Arial; color:#f26522; padding:0; text-transform: none; font-weight:bold;
+						&:hover{color:#f26522; text-decoration: underline;}
+					}
+					p{font:normal 12px Op, Arial; color:#333;}
+				}		
+			}
+			span{display:block; margin-top:5px;  width:100%; 
+				a{font:normal 12px Op, Arial; color:#aaa; background: none; margin-right: 10px;
+					&:hover{color:#333333;}
+				}
+				b{font:normal 12px Op, Arial; color:#aaa;
+					&:hover{color:#333333;}
+				}
+			}		
+			#dropostbtn{float:right;
+				ul{list-style:none; 
+					li{padding:5px; display:inline-block; vertical-align: middle;
+						a{text-decoration:none; font-size:16px; color:#aaa; display: block;
+							&:hover{color:#ccc;}
+						}
+					} 
+				}
+			}
+		}
+
+		.showpostreplycomments{margin-left:50px; padding:0; min-height:100px;
+			.outputpostreplycomment{display:table; margin-bottom:15px; width:100%;
+				.image{display:inline-block; vertical-align:top; border:1px solid #ccc; width:50px; height:50px; margin-right:5px; overflow:hidden; position:relative;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:50px; text-align:center;}
+				}
+				.output{display:inline-block; vertical-align:middle;		
+					.arrow_box {position:relative; left:3px; max-width:350px;
+						a{display:block; font:normal 12px Op, Arial; color:#f26522; padding:0; text-transform: none; font-weight:bold;
+							&:hover{color:#f26522; text-decoration: underline;}
+						}
+						p{font:normal 12px Op, Arial; color:#333;}
+					}		
+				}
+				span{display:block; margin-top:5px;  width:100%; 
+					a{font:normal 12px Op, Arial; color:#aaa; background: none; margin-right: 10px;
+						&:hover{color:#333333;}
+					}
+					b{font:normal 12px Op, Arial; color:#aaa;
+						&:hover{color:#333333;}
+					}
+				}	
+				#dropostbtn{float:right;
+					ul{list-style:none; 
+						li{padding:5px; display:inline-block; vertical-align: middle;
+							a{text-decoration:none; font-size:16px; color:#aaa; display: block;
+								&:hover{color:#ccc;}
+							}
+						} 
+					}
+				}
+			}
+		}	
+	}
+}

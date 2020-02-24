@@ -1,0 +1,27 @@
+footer{position:fixed; bottom:0; width:100%; z-index:1;
+	.footer-container{width:100%; min-height:30px; background:#333;
+		.footer-wrap{
+			
+			.footer-row{
+				.footer-col-1,
+				.footer-col-2,
+				.footer-col-3{
+					.footer-logo{width:20px;
+						img{width:100%;}
+					}
+					.footer-copyright{font:normal 12px arial, sans-serif; color:#f2f2f2;}
+					.footer-geoweather{font:normal 12px arial, sans-serif; color:#f2f2f2; margin-right:15px;}
+					
+					.footer-geoflag{width:20px;img{width:100%}}
+					.footer-geolocation{width:225px; font:normal 12px arial, sans-serif; color:#f2f2f2; text-transform:capitalize;}
+
+					.footer-site-btn{
+						a{font:normal 12px arial, sans-serif; color:#f2f2f2;}
+					}
+
+				}
+			}
+
+		}
+	}
+}

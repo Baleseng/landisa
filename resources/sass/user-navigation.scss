@@ -1,0 +1,56 @@
+.navigation-container,.navigation-article-container,.navigation-wrapper{z-index:1; 
+	.navigation{display:inline-block; vertical-align:top; min-height:25px;
+		ul{list-style:none;
+			.left-border{border-left:1px solid #ccc;}
+			li{display:inline-block;
+				a{ color:#405365; text-transform:uppercase; padding:.45em;
+					&:hover{color:#ccc;};
+				}
+			}
+		}
+		
+		.hamburger {display:inline-block; vertical-align:top; /*position:relative; top:5px; right:25px;*/ width:25px; height:3px; margin: 5px 0px; background:#405365; cursor:pointer; -webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0);-webkit-transition: all 0.25s cubic-bezier(0, 0, 0, 0);transition: all 0.25s cubic-bezier(0, 0, 0, 0);
+			:before {content:""; width:25px; height:3px; position:absolute; top:5px; left:0; background:#405365; -webkit-transition: all 0.25s cubic-bezier(0, 0, 0, 0);transition: all 0.25s cubic-bezier(0, 0, 0, 0);}
+			:after {content: ""; width:25px; height:3px; position:absolute; top:10px; left:0; background:#405365; -webkit-transition: all 0.25s cubic-bezier(0, 0, 0, 0);transition: all 0.25s cubic-bezier(0, 0, 0, 0);}
+			div{width:25px; height:15px;}
+		}
+		.close {background: transparent;
+			:before {-webkit-transform: rotate(45deg) translate(3px, -2px);-ms-transform: rotate(45deg) translate(3px, -2px);transform: rotate(45deg) translate(3px, -2px);}
+			:after {-webkit-transform: rotate(-45deg) translate(5px, -1px);-ms-transform: rotate(-45deg) translate(5px, -1px);transform: rotate(-45deg) translate(5px, -1px);}
+		}
+	
+		.hamburgermenu{position:relative; margin:5px auto; z-index:999; background:#f2f2f2; border-top:1px #405365 solid; 
+			#submenudesktop{margin:0 auto; min-height:300px;
+				#submenumore{width:100%; height:30px; border-bottom:1px solid #333; border-top:1px solid #333;
+					span{display:inline-block; margin:5px 10px;
+						a{font:normal 14px 'OpenSansRegular', arial, sans-serif; color:#333;
+						&:hover{};
+						}
+					}
+				}
+				#submenulistnews,
+				#submenulistbusiness,
+				#submenulistsports,
+				#submenulistentertainment,
+				#submenulistmotoring,
+				#submenulistlifestyle,
+				#submenulisttravel,
+				#submenulisttech{display:inline-block; vertical-align:top; min-height:150px;
+					h3{font:normal 12px 'OpenSansRegular', arial, sans-serif; color:#f26522; text-transform:uppercase;}
+					p{line-height:24px; font:normal 12px 'OpenSansRegular', arial, sans-serif; color:#f2f2f2;}
+					a{display:block; padding:0 4px; margin: 5px 0; font:normal 14px 'OpenSansRegular', arial, sans-serif; color:#405365; line-height:18px;
+						&:hover{color:#ccc;text-decoration:underline;}
+					}
+				}
+			}
+		}
+
+		.sidenavmenu{height:100%; width:0; position:fixed; z-index:1; top:0; left:0; padding-top:60px; text-align:center; background-color:#111; overflow-x:hidden; transition:0.5s; 
+    	a{padding:8px 8px 8px 32px; text-decoration:none; font-size:25px; color:#818181; display:block; transition:0.3s;
+    		&:hover{color:#f1f1f1;}
+    	}
+    	.closebtn {position:absolute; top:0;	right:25px;	font-size:36px; margin-left:50px;}
+  	}
+		
+	}
+}

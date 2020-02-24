@@ -1,0 +1,97 @@
+@mixin sharegradiencebox{background: rgba(5,5,5,0);
+background: -moz-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.75) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,5,5,0)), color-stop(100%, rgba(0,0,0,0.75)));
+background: -webkit-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.75) 100%);
+background: -o-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.75) 100%);
+background: -ms-linear-gradient(top, rgba(5,5,5,0) 0%, rgba(0,0,0,0.75) 100%);
+background: linear-gradient(to bottom, rgba(5,5,5,0) 0%, rgba(0,0,0,0.75) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#000000', GradientType=0 );}
+@mixin hover-shadow{bottom:0px; -moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); }
+@mixin card-shadow{background-color:#f5f5f5; position:relative; bottom: -3px; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+	-moz-box-shadow:none;-webkit-box-shadow:none; box-shadow:none;
+}
+.media-article-container{top:3em;}
+.news-article-container{top:0;}
+.media-article-container,
+.news-article-container{position:relative;
+
+	.article-container{ position:relative; top:1em;
+		.article-section{display:block; width:100%;
+			a,span{ margin-right: 5px; text-transform:capitalize; font:normal 14px arial, sans-serif; 
+				&:hover{color:#aaa; text-decoration:none;}
+			}
+			span{color:#405365;}
+		}
+
+		.article-title{margin:0 auto; display:block; width:100%;
+			h1{ overflow:hidden; color:#405365; padding:.25em 0; font:900 3em  arial, sans-serif; line-height:50px;}
+		}
+
+		.article-author{display:block; width:100%; margin-bottom:15px;
+			.author-img{display:inline-block; width:15px; height:15px; margin-right:5px; overflow:hidden;
+				img{width:100%; margin:auto 0;  font-size:15px; text-align:center;}
+			}
+			.author-name-article-date{display:inline-block; vertical-align:middle; font: 12px Op, Arial; color:#405365; margin:15px 0;
+				i{font-size:14px;}
+				span{display:inline-block; margin-left: 15px;}
+			}
+		}
+
+		.article-min,.article-max{font:.9em Op, Arial; color:#333; line-height: 26px; padding:0 10px;}
+		.article-min{min-height:10px; max-height:515px;}
+		.article-img{margin:15px auto; background-color: #eee; overflow:hidden;
+			img{width:100%; margin:auto 0; /*position:absolute; top:-9999px; bottom:-9999px; left:0; right:0; transition: width 1s, height 1s;*/}
+		}
+		.article-max{min-height:100px;
+			blockquote{quotes: "“"; border-left:5px #aaaaaa solid;}
+			p{margin: 21px 0;}
+		}
+		.articlewrap{
+			.article-article{min-height:5px;}
+		}		
+	}
+
+	.article-sidebar{background-color: #f2f2f2;
+			
+		.article-results-container{text-align:center; min-height:30px;
+			.article-results-wrap{
+				
+				@import 'user-article-button';
+
+				@import 'user-article-model-post';
+		
+			}
+		}
+
+	  .related-article-container{color:#333; 
+		  h4{font:100 16px 'OpenSansRegular', arial, sans-serif; color:#333; text-transform: uppercase; margin-bottom:10px; padding-bottom:10px;}
+		  .related-article-wrap{
+		    .related-article-row {display:block; @include hover-shadow;
+		      
+		      .content-sub-article-img{overflow:hidden;
+						a{ 
+							img{width:100%;-webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+							transition: width 1s, height 1s; &:hover{width:110%;}}
+						}
+					}
+					.content-sub-article-heading{
+					  a{display:block; overflow:hidden; font:normal .95em 'OpenSansRegular', arial, sans-serif; color:#405365;}
+						span.subsection{display:block;}
+					}
+					.content-sub-article-status{border-top: 1px solid #ccc; padding: 5px;
+						/*START VIEW COMMENT SHARE STATUS RESULTS*/
+						ul{display:inline-block; list-style: none; 
+							li{display:inline-block;
+								i{vertical-align:middle; color:#cccccc; font-size:16px;}
+								b{display:inline-block; vertical-align:middle; font:normal 12px arial, sans-serif; line-height:12px; width:28px;}
+							}
+						}
+						span.published{display:inline-block; color:#a1a1a1; font:100 12px arial, sans-serif; text-transform: capitalize; margin:5px 0}
+					}
+		      
+		      &:hover{@include card-shadow}
+		    }
+		  }
+	  }
+	}
+}

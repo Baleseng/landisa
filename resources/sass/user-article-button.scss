@@ -1,0 +1,20 @@
+.article-results-btn{position: relative;				
+	span.result-btn,
+	a.result-btn{color:#f2f2f2; cursor:pointer; display:block; padding:5px;
+		i{font-size:18px; }
+		b{display:block; font:100 12px arial, sans-serif; }
+	}
+	.dropmoodcontent {display:none; position:absolute; background-color:#f2f2f2; 
+		a{font:100 14px 'OpenSansRegular', arial, sans-serif; color:#405365; padding:5px 10px; text-decoration:none; display:block;
+			&:hover {background-color: #ccc}
+			i{margin-right:10px; font-size: 18px; vertical-align: middle;}
+		}
+		span.bounce_button{position:relative; background:#f2f2f2; color:#333333;
+			input {visibility:hidden; position: absolute; top:12px; left:12px;}
+			label {cursor:pointer; font-size: 20px;}
+			input:checked + label {border:#ccc 3px solid; border-radius: 10px;}
+			&:hover{background:#ccc; color:#fff;}
+		}
+	}
+	&:hover .dropmoodcontent{display: block;}
+}

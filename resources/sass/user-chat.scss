@@ -1,0 +1,94 @@
+.chat-wrapper{ position:fixed;
+
+	#y-scroll::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color:#F5F5F5;}
+	#y-scroll::-webkit-scrollbar{width:2px; background-color:#F5F5F5;}
+	#y-scroll::-webkit-scrollbar-thumb{background-color:#cccccc;}
+	.chat-user-col{float: right; width:250px; background:#f4f4f4; 
+		-moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+		-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); 
+		box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+
+		.chat-box-wrap{height:2em; width:100%; padding:.6em 5px; background:#f26522;
+			.chat-box-title,
+			.chat-box-btn{font:bold 12px Op, Arial; color:#333; text-transform:uppercase;}
+			.chat-box-title{float:left; width:90px; cursor: pointer;}
+		}
+		#chat-contacts{display:none;
+			
+			.chat-box-btn{width:25%; padding:9px 5px; position:absolute; top:0; right:0; z-index:1;
+				span.chat-btn{float:right; margin-left:10px; font-size: 14px; color:#333;}
+			}
+
+			span.chat-user-search{border-bottom:2px solid #ccc; display: block; position:relative; width:100%;
+				#filtersubmit {position:absolute; top:5px; left:5px; z-index:9; color:#ccc; cursor:pointer; width:0;}
+				input[type="text"]{font:normal 12px arial, sans-serif; padding:5px 0 5px 25px; width:100%; margin:auto;
+				background:#f9f9f9;}
+			}
+			.list-group{list-style:none; height:270px; overflow-y:scroll; padding:5px;
+				.list-group-wrap{margin: .45em 0;
+					.list-group-img{display:inline-block; vertical-align: middle; width:30px; height:30px; overflow:hidden; border-radius:15px; background:#405365; 
+						img{width:100%; font-size: 24px; text-align:center; line-height:38px; color:#f2f2f2;}
+					}
+					.list-group-item{display:inline-block; width:85%; font:normal 12px Op, Arial; color:#405365; cursor:pointer; padding:5px; border-bottom:none;}
+				}
+			}
+		}
+	}
+
+
+	.chat-message-col{float:right; max-width:990px; min-height:1px; max-height:20.5em;
+		.chat-message{float:right; width:320px; margin-right:5px;
+			.panel{
+				.panel-heading{background-color:#405365; padding: 10px; font:normal 14px Op, Arial; color:#f2f2f2; position: relative;
+					button.panel-close-btn{position:absolute; right:10px; cursor: pointer;}
+				}
+				
+				.panel-collapse{
+					#y-scroll::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color:#F5F5F5;}
+					#y-scroll::-webkit-scrollbar{width:1px; background-color:#F5F5F5;}
+					#y-scroll::-webkit-scrollbar-thumb{background-color:#cccccc;}
+					.panel-body{height:10em; overflow-y:scroll;padding: 5px; background:#f4f4f4; border-left:1px solid #cccccc;
+						ul.chat{list-style: none;
+							li.left{
+								span.chat-img{display: inline-block; width:40px; height:40px; overflow:hidden; border-radius:25px; background:#ccc; color:#e5e5e5;
+									img{width:100%; font-size: 30px; text-align:center;}
+								}
+			
+								.chat-body{ display: inline-block; vertical-align: top;
+									.header{
+										strong.primary-font{font:bold 14px Op, Arial; color:#333;}
+									}
+									p{font:normal 14px Op, Arial; color:#333;}
+								}
+							}
+						}
+					}
+
+					.panel-footer{border-top:1px #cccccc solid;
+						.input-group{background: #cccccc; padding:5px; 
+							
+							.input-article{width:100%; height:50px; background:-webkit-linear-gradient(#E5E5E5, #F4F4F4 40%, #FAFAFA); padding: .1em;
+								.article-img{width:70px; display:inline-block; vertical-align:top;
+									img{width:100%;}
+								}
+								.article-title{width:230px; height: inherit; overflow:hidden; display:inline-block; font:100 14px 'OpenSansRegular', arial, sans-serif; line-height:14px; color:#405365;}
+							}
+							
+							input.input-md{width:100%; padding:1.1em .5rem; outline:none;
+								background:-webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+								font:normal 12px arial, sans-serif; color:#405365; 
+							}
+
+							.input-group-btn{display:block; float:right; margin-top:5px;
+								button.btn{padding:5px .45rem; background:#f26522; cursor:pointer; border-radius:0;
+									color:#333; font:bold 14px Op, Arial; text-align:center; text-transform:uppercase;
+      					}
+							}
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

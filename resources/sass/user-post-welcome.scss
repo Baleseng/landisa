@@ -1,0 +1,32 @@
+.welcomecontainer{min-height:1px; display:block; margin-top:15px; 
+	.welcome{background: white; padding:5px; box-sizing: border-box; border:1px #d0dade solid;
+		.image{display:inline-block; width:55px; height:55px; overflow:hidden; position: relative;
+			img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:4em; text-align:center;}
+		}
+		.headingpost{display:inline-block; vertical-align:top; width:250px; min-height:35px; margin:0 5px;
+			h4{
+				a{font:bold 12px Op, Arial; color:#405365; text-transform:capitalize;}
+			}
+			span{font:12px Op, Arial; color:#ccc;}
+		}
+		h2{font:bold 24px Op, Arial; color:#405365; text-align: center; text-transform: capitalize; margin:15px 0;}
+		p{display:block; font:bold 14px Op, Arial; color:#f26522; text-align:center;}
+		.imageradius{width:230px; height: 230px; margin:15px auto; border-radius:155px; border:5px #aaa solid ; overflow: hidden; position: relative;
+			img{width:100%; margin:auto 0; color:#aaaaaa; font-size:15em; text-align:center;}
+		}
+		span{display:block;font:bold 14px Op, Arial; color:#333; text-align:left; line-height:21px;}
+		.button{display:block; border-top:solid #d0dade 1px; border-bottom:solid #d0dade 1px; padding:5px 0; height:15px; margin:10px 0;
+			a{font:12px Op, Arial; color:#333; margin-right:20px;
+				b{display:inline-block; vertical-align:top;
+					span{color:#f26522; display:inline-block; text-align:left; line-height:0;}
+				}
+				.overflow{width:15px; height:15px; overflow:hidden; display:inline-block; margin-right:5px; text-align: left;}
+				#viewed{background-size:250px;background-position:-215px 0px;}
+				#invite{background-size:250px;background-position:-60px 0px;}
+				#mood{background-size:250px;background-position:-40px 0px;}
+				#share{background-size:250px;background-position:-20px 0px;}
+				#comment{background-size:250px;background-position:-4px 0px;}
+			}
+		}
+	}
+}

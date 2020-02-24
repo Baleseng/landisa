@@ -1,0 +1,13 @@
+.more-section-container{width:350px; top:5em;  
+  .more-article-container{width:100%;
+    .more-article-wrap{width:100%; height:360px;
+      .more-article-image{width:100%; height:140px;}
+      .more-article-heading{position:relative; top:9em; margin:5px; height:65px;}
+      .more-article-synopsis{position:relative; top:9em; margin:5px; height:80px;}
+      span.published{position:relative; top:12em; margin:10px 10px 0;}
+      .more-article-info{position:relative; top:9em; margin:5px 0;
+        span{width:200px;}
+      }
+    }
+  }
+}

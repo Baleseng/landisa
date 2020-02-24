@@ -1,0 +1,135 @@
+/***************************************************************** 1st ARTICLE SECTION CONTAINER ************************************************************/
+.articles-main-container{width:1240px; min-height:530px; margin:0 auto 5em; position:relative; top:60px;
+  .articles-main-wrapper{width:820px; margin:0; 
+    .content{min-height:32.25em;
+      .content-article-tab{display: inline-block; vertical-align: top; width:400px; min-height:250px; margin-right:15px;
+        .content-article-img{width:400px; height:250px;}
+        .content-article-caption{width:100%; padding:5px 10px; min-height:200px;
+          a.content-article-heading{height:85px;}
+          span.content-article-subsection{width:200px;}
+          a.content-article-synopsis{height:13.8em;} 
+        }
+        .content-article-status{border-top: 1px solid #ccc; padding: 5px;
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:310px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+
+      .content-sub-article-tab{display:inline-block; vertical-align:top; width:400px;
+        .content-sub-article-row{width:100%; margin:0 0 15px;
+          .content-sub-article-img{height:6.55em; width:11em; display:inline-block; vertical-align:top;}
+          .content-sub-article-heading{width:210px; display:inline-block; vertical-align:top; margin-left:5px;
+            a{line-height:21px; height:5em; }
+            span.subsection{width:100%;}
+          }
+          .content-sub-article-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:310px; 
+              li{width:4.25em;}
+            }
+          }
+        }
+      }
+    }  
+  }
+
+/***************************************************************** TRENDING ARTICLE  ************************************************************/
+  .trending-main-wrapper{display:table; position:absolute; top:4em; right:0; width:415px; height:5em; padding-left:10px; 
+    .trending-main-wrap{width:100%; 
+      ol{
+        .trending-main-row{width:100%; margin:0 0 1.1em; 
+          .trending-main-col{
+            li{font:100 3em 'OpenSansRegular', arial, sans-serif;}
+            .trending-main-heading{width:340px;
+              a{height:2.68em;}
+              span{width:100%;}
+            }
+          }
+          .trending-main-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:308px; 
+              li{width:4.25em;}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/***************************************************************** 2nd, 3rd, 4th ARTICLE SECTION CONTAINER ************************************************************/
+.article-other-container{width:1240px; min-height:200px; margin:0 auto 2em; position:relative; top:2.5em;
+  .margin-side{margin:0 15px;}
+  .article-other-primary-col{display:inline-block; vertical-align:top; width:400px;
+    .content-article-tab{width:100%; min-height:150px;
+      .content-article-img{width:400px; height:250px;}
+      .content-article-caption{width:100%; padding:5px 10px; min-height:200px;
+        a.content-article-heading{height:85px;}
+        span.content-article-subsection{width:200px;}
+        a.content-article-synopsis{height:13.8em;} 
+      }
+    }
+    .content-sub-article-tab{display:block; width:400px; margin-top: 15px;
+      .content-sub-article-row{width:400px;
+        .content-sub-article-img{height:6.55em; width:11em; display:inline-block; vertical-align:top;}
+        .content-sub-article-heading{width:210px; display:inline-block; vertical-align:top; margin-left:5px;
+          a{line-height:21px; height:5em;}
+          span.subsection{width:100%;}
+        }
+        .content-sub-article-status{
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:310px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+    }
+  }
+  /***************************************************************** 2nd, 3rd, 4th ARTICLE SECTION CONTAINER ************************************************************/ 
+}
+
+.multimedia-index-postion-top{top:4.5em; margin-bottom:2em;}
+
+.news-round-container{width:1240px; min-height:50px; margin:0 auto 5em; position:relative; top:8.5em;
+  .news-round-wrapper{width:100%; margin:0; 
+    .news-round-content{min-height:50px;
+      .news-round-sidemargin{margin:0 15px;}
+      .content-article-tab{display: inline-block; vertical-align: top; width:400px; min-height:250px;
+        .content-article-img{width:400px; height:13em;}
+        .content-article-caption{width:100%; padding:5px 10px; min-height:200px;
+          a.content-article-heading{height:85px;}
+          span.content-article-subsection{width:200px;}
+          a.content-article-synopsis{height:5.7em;} 
+        }
+        .content-article-status{border-top: 1px solid #ccc; padding: 5px;
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:310px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+
+      .content-sub-article-tab{display:inline-block; vertical-align:top; width:400px;
+        .content-sub-article-row{width:100%; margin:0 0 15px;
+          .content-sub-article-img{height:6.55em; width:11em; display:inline-block; vertical-align:top;}
+          .content-sub-article-heading{width:210px; display:inline-block; vertical-align:top; margin-left:5px;
+            a{line-height:21px; height:5em; }
+            span.subsection{width:100%;}
+          }
+          .content-sub-article-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:310px; 
+              li{width:4.25em;}
+            }
+          }
+        }
+      }
+    }  
+  }
+}
+
+
+

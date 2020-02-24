@@ -1,0 +1,143 @@
+/***************************************************************** 1st ARTICLE SECTION CONTAINER ************************************************************/
+.articles-main-container{width:760px; min-height:530px; margin:0 auto 35px; position:relative; top:10px;
+  .articles-main-wrapper{width:100%; margin:0; 
+    .content{min-height:32.25em;
+      .content-article-tab{width:97%; min-height:250px; margin-left:auto; margin-right:auto; margin-bottom:20px;
+        .content-article-img{width:360px; height:220px; display:inline-block; vertical-align:top;}
+        .content-article-caption{width:43.5%; min-height:200px; display:inline-block; padding:5px 10px;
+          a.content-article-heading{height:85px;}
+          span.content-article-subsection{width:200px;}
+          a.content-article-synopsis{height:6.7em;} 
+        }
+        .content-article-status{
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:640px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+
+      .content-sub-article-tab{width:100%;
+        .content-sub-article-row{width:360px; margin-bottom:15px; margin-right:10px; margin-left:10px; float:left;
+          .content-sub-article-img{height:200px; width:100%;}
+          .content-sub-article-heading{width:100%; padding:5px;
+            a{ height:4.45em; }
+            span.subsection{width:100%;}
+          }
+          .content-sub-article-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:208px; 
+              li{width:4em;}
+            }
+          }
+        }
+      }
+    }  
+  }
+
+/***************************************************************** TRENDING ARTICLE  ************************************************************/
+  .trending-main-wrapper{display:table; width:100%; height:5em; margin:15px auto;
+    .trending-main-wrap{width:100%; 
+      ol{
+        .trending-main-row{width:97.5%; margin:15px 10px; float:left;
+          .trending-main-col{
+            li{font:100 2.5em 'OpenSansRegular', arial, sans-serif;}
+            .trending-main-heading{width:680px;
+              a{height:1.5em; width:93%;}
+              span{width:100%;}
+            }
+          }
+          .trending-main-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:85%; 
+              li{width:3.6em;}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/***************************************************************** 2nd, 3rd, 4th ARTICLE SECTION CONTAINER ************************************************************/
+.article-other-container{width:760px; min-height:200px; margin:0 auto 35px; position:relative; top:2.5em;
+  .margin-side{margin:0;}
+  .article-other-primary-col{width:100%;
+    .content-article-tab{display:table; width:97%; min-height:250px; margin-left:auto; margin-right:auto; margin-bottom:20px;
+      .content-article-img{width:360px; height:220px; display:inline-block; vertical-align:top;}
+      .content-article-caption{width:43.5%; min-height:200px; display:inline-block; padding:5px 10px;
+        a.content-article-heading{height:85px;}
+        span.content-article-subsection{width:200px;}
+        a.content-article-synopsis{height:6.7em;} 
+      }
+      .content-article-status{
+        /*START VIEW COMMENT SHARE STATUS RESULTS*/
+        ul{width:640px; 
+          li{width:4.25em;}
+        }
+      }
+    }
+
+    .content-sub-article-tab{width:100%;
+      .content-sub-article-row{width:360px; margin-bottom:15px; margin-right:10px; margin-left:10px; float:left;
+        .content-sub-article-img{height:200px; width:100%;}
+        .content-sub-article-heading{width:100%; padding:5px;
+          a{ height:4.45em; }
+          span.subsection{width:100%;}
+        }
+        .content-sub-article-status{
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:208px; 
+            li{width:4em;}
+          }
+        }
+      }
+    }
+  }
+}
+
+/***************************************************************** 2nd, 3rd, 4th ARTICLE SECTION CONTAINER ************************************************************/
+.multimedia-index-postion-top{top:4.5em; margin-bottom:2em;}
+
+
+/***************************************************************** 2nd, 3rd, 4th ARTICLE SECTION CONTAINER ************************************************************/
+.news-round-container{width:755px; min-height:50px; margin:0 auto 5em; position:relative; top:8.5em;
+  .news-round-wrapper{width:100%; margin:0; 
+    .news-round-content{min-height:50px;
+      .news-round-sidemargin{margin:0}
+      
+      .content-article-tab{display:table; width:100%; min-height:250px; margin-bottom:20px;
+        .content-article-img{width:360px; height:220px; display:inline-block; vertical-align:top;}
+        .content-article-caption{width:43.5%; min-height:200px; display:inline-block; padding:5px 10px;
+          a.content-article-heading{height:85px;}
+          span.content-article-subsection{width:200px;}
+          a.content-article-synopsis{height:6.7em;} 
+        }
+        .content-article-status{
+          /*START VIEW COMMENT SHARE STATUS RESULTS*/
+          ul{width:640px; 
+            li{width:4.25em;}
+          }
+        }
+      }
+
+      .content-sub-article-tab{display:block; width:100%; margin-top: 15px;
+        .content-sub-article-row{width:100%; margin:0 0 15px ;
+          .content-sub-article-img{height:85px; width:140px; display:inline-block; vertical-align:top;}
+          .content-sub-article-heading{width:600px; display:inline-block; vertical-align:top; margin-left:5px;
+            a{line-height:18px; height:3.6em; }
+            span.subsection{width:100%;}
+          }
+          .content-sub-article-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:180px; 
+              li{width:3.25em;}
+            }
+          }
+        }
+      }
+
+    }  
+  }
+}

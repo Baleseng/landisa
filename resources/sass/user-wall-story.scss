@@ -1,0 +1,32 @@
+@mixin hover-shadow{bottom:0px; -moz-box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); }
+@mixin card-shadow{background-color:#f5f5f5; position:relative; bottom: -3px; -webkit-transition: all .3s ease-in-out; /* For Safari 3.1 to 6.0 */transition: all .3s ease-in-out;
+	-moz-box-shadow:none;-webkit-box-shadow:none; box-shadow:none;}
+
+.user-stories-container{
+	.user-stories-row{@include hover-shadow; background-color:#f2f2f2; 
+		.user-stories-images{position:relative;
+			.user-stories-cover{overflow:hidden; width:100%; height:120px; background:#405365;
+				img{width:100%; height:120px; font-size:4.5em; line-height:1.75em; color:#f2f2f250; text-align:center;}
+			}
+			.user-stories-avator{position:relative; bottom:20px; z-index:1; border-radius:40px; width:50px; height:50px; background:#f26522; margin:auto; overflow:hidden;
+				img{width:100%; font-size:2.5em; line-height:1.5em; color:#333333; text-align:center;}
+			}
+		}
+		.user-stories-heading{overflow:hidden; padding:0 10px; height:75px;
+			a{font:normal 16px 'OpenSansRegular', arial, sans-serif; color:#405365;}
+		}
+	
+		.user-stories-info{border-top: 1px solid #ccc; padding: 5px;
+			/*START VIEW COMMENT SHARE STATUS RESULTS*/
+			ul{display:inline-block; list-style: none; width:100%; 
+				li{display:inline-block; width:4.25em;
+					dl{vertical-align:middle; color:#cccccc; font-size:16px;}
+					b{display:inline-block; vertical-align:middle; color:#f26522; font:normal 14px arial, sans-serif; line-height:12px; width:28px;}
+				}
+			}	
+		}
+
+		&:hover{@include card-shadow}
+		
+	}
+}

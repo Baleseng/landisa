@@ -1,0 +1,492 @@
+.comments-app {
+  width: 740px;
+  margin: auto;
+  position: relative;
+  top: 5em;
+  /* Commnt Form */
+  /* User Comment Output */
+}
+
+.comments-app .comment-disclaimer {
+  display: block;
+  min-height: 35px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.comments-app .comment-disclaimer h4 {
+  font: bold 16px Op, Arial;
+  color: #607d8b;
+  text-transform: capitalize;
+  background: none;
+}
+
+.comments-app .comment-disclaimer span {
+  font: 13px Op, Arial;
+  color: #333;
+}
+
+.comments-app .comment-form {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  /* Commnter Avator */
+  /* User Comment Input & Button */
+}
+
+.comments-app .comment-form .comment-avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+.comments-app .comment-form .comment-avatar img {
+  width: 100%;
+  margin: auto 0;
+  color: #aaaaaa;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.comments-app .comment-form form.form {
+  display: inline-block;
+  vertical-align: top;
+  width: 686px;
+}
+
+.comments-app .comment-form form.form .form-row {
+  margin: 0;
+}
+
+.comments-app .comment-form form.form .form-row textarea.inputext {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  resize: none;
+  background-color: #e9ecef;
+  border: none;
+  font: 14px Op, Arial;
+  color: #333;
+  outline: none;
+}
+
+.comments-app .comment-form form.form .form-row button {
+  float: right;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  background: #f26522;
+  font: 900 12px arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.comments-app .comment-form form.form .form-row button i {
+  font-size: 14px;
+}
+
+.comments-app .comment-form form.form .form-row button:hover {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.comments-app .comment-form form.form span.btn,
+.comments-app .comment-form form.form input[type=button].btn {
+  float: right;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font: 900 12px arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.comments-app .comment-form form.form span.btn:hover,
+.comments-app .comment-form form.form input[type=button].btn:hover {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.comments-app .comment-form form.form span.btn-inactive {
+  background: #cccccc;
+  color: #333;
+  cursor: text;
+}
+
+.comments-app .comment-form form.form input[type=button].btn-success {
+  background: #f26522;
+  color: #333;
+  cursor: pointer;
+}
+
+.comments-app .comments {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100px;
+  float: right;
+  width: 690px;
+}
+
+.comments-app .comments .comment {
+  display: table;
+  margin-bottom: 15px;
+  width: 100%;
+  /* Commnter Avator */
+  /* Reply Comment Form */
+}
+
+.comments-app .comments .comment .comment-avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 51px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+.comments-app .comments .comment .comment-avatar img {
+  width: 100%;
+  margin: auto 0;
+  color: #aaaaaa;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.comments-app .comments .comment .comment-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 640px;
+  margin-bottom: 15px;
+}
+
+.comments-app .comments .comment .comment-box .comment-text {
+  width: 100%;
+  min-height: 50px;
+  padding: 5px;
+  font: normal 0.8em arial, sans-serif;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comments-app .comments .comment .comment-box .comment-footer {
+  width: 100%;
+  min-height: 20px;
+  margin-top: 5px;
+  /* Commenter Name and Date Comment */
+  /* Commenter Interactive Buttons */
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-info {
+  float: left;
+  font: normal 0.8em arial, sans-serif;
+  margin-top: 5px;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-info span.comment-author {
+  color: #405365;
+  font-weight: bold;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-info span.comment-divide {
+  margin: 0 5px;
+  color: #aaaaaa;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-info span.comment-date {
+  color: #aaaaaa;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions {
+  float: right;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list {
+  list-style: none;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list li span.comment-counter {
+  font: normal 0.65em arial, sans-serif;
+  color: #f26522;
+  text-transform: uppercase;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list li a {
+  margin: 0 5px;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list li a:hover {
+  color: #405365;
+}
+
+.comments-app .comments .comment .comment-box .comment-footer .comment-actions ul.list li a i {
+  font-size: 0.75em;
+}
+
+.comments-app .comments .comment .comment-form {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 92%;
+  float: right;
+  /* Commnter Avator */
+  /* Reply Comment Form Input & Button */
+}
+
+.comments-app .comments .comment .comment-form .comment-avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+.comments-app .comments .comment .comment-form .comment-avatar img {
+  width: 100%;
+  margin: auto 0;
+  color: #aaaaaa;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.comments-app .comments .comment .comment-form form.form {
+  display: inline-block;
+  vertical-align: top;
+  width: 90.95%;
+}
+
+.comments-app .comments .comment .comment-form form.form .form-row {
+  margin: 0;
+}
+
+.comments-app .comments .comment .comment-form form.form .form-row textarea.inputext {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  resize: none;
+  background-color: #e9ecef;
+  border: none;
+  font: 14px Op, Arial;
+  color: #333;
+  outline: none;
+}
+
+.comments-app .comments .comment .comment-form form.form span.btn,
+.comments-app .comments .comment .comment-form form.form input[type=button].btn {
+  float: right;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font: 900 12px arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.comments-app .comments .comment .comment-form form.form span.btn:hover,
+.comments-app .comments .comment .comment-form form.form input[type=button].btn:hover {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.comments-app .comments .comment .comment-form form.form span.btn-inactive {
+  background: #cccccc;
+  color: #333;
+  cursor: text;
+}
+
+.comments-app .comments .comment .comment-form form.form input[type=button].btn-success {
+  background: #f26522;
+  color: #333;
+  cursor: pointer;
+}
+
+.comments-app .comments .comment .reply {
+  display: table;
+  margin-bottom: 15px;
+  width: 92%;
+  float: right;
+  /* Commnter Avator */
+}
+
+.comments-app .comments .comment .reply .reply-avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 51px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+.comments-app .comments .comment .reply .reply-avatar img {
+  width: 100%;
+  margin: auto 0;
+  color: #aaaaaa;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.comments-app .comments .comment .reply .reply-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 584px;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-text {
+  width: 100%;
+  min-height: 50px;
+  padding: 5px;
+  color: #333;
+  font: normal 0.8em arial, sans-serif;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer {
+  width: 100%;
+  min-height: 20px;
+  margin-top: 5px;
+  /* Commenter Name and Date Comment */
+  /* Commenter Interactive Buttons */
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-info {
+  float: left;
+  font: normal 0.8em arial, sans-serif;
+  margin-top: 5px;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-info span.reply-author {
+  color: #405365;
+  font-weight: bold;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-info span.reply-divide {
+  margin: 0 5px;
+  color: #aaaaaa;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-info span.reply-date {
+  color: #aaaaaa;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions {
+  float: right;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list {
+  list-style: none;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list li span.reply-counter {
+  font: normal 0.65em arial, sans-serif;
+  color: #f26522;
+  text-transform: uppercase;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list li a {
+  margin: 0 5px;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list li a:hover {
+  color: #405365;
+}
+
+.comments-app .comments .comment .reply .reply-box .reply-footer .reply-actions ul.list li a i {
+  font-size: 0.75em;
+}
+
+.comments-app .comments .comment .reply-form {
+  display: table;
+  margin-bottom: 15px;
+  width: 100%;
+  float: right;
+  /* Commnter Avator */
+  /* Reply Comment Form Input & Button */
+}
+
+.comments-app .comments .comment .reply-form .reply-avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+.comments-app .comments .comment .reply-form .reply-avatar img {
+  width: 100%;
+  margin: auto 0;
+  color: #aaaaaa;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.comments-app .comments .comment .reply-form form.form {
+  display: inline-block;
+  vertical-align: top;
+  width: 90.95%;
+}
+
+.comments-app .comments .comment .reply-form form.form .form-row {
+  margin: 0;
+}
+
+.comments-app .comments .comment .reply-form form.form .form-row textarea.inputext {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  resize: none;
+  background-color: #e9ecef;
+  border: none;
+  font: 14px Op, Arial;
+  color: #333;
+  outline: none;
+}
+
+.comments-app .comments .comment .reply-form form.form span.btn,
+.comments-app .comments .comment .reply-form form.form input[type=button].btn {
+  float: right;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font: 900 12px arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.comments-app .comments .comment .reply-form form.form span.btn:hover,
+.comments-app .comments .comment .reply-form form.form input[type=button].btn:hover {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.comments-app .comments .comment .reply-form form.form span.btn-inactive {
+  background: #cccccc;
+  color: #333;
+  cursor: text;
+}
+
+.comments-app .comments .comment .reply-form form.form input[type=button].btn-success {
+  background: #f26522;
+  color: #333;
+  cursor: pointer;
+}
+

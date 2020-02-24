@@ -1,0 +1,99 @@
+@mixin container{ width:100%; height:435px;}
+
+.multimedia-container{height:30em; position:relative; top:0;
+  .multimedia-box{margin:auto; width:100%;
+
+    section.gallery{width:100%;
+      button.slick-next,
+      button.slick-prev{top:45%;}
+      
+      button.slick-next{right:10px;}
+      button.slick-prev{left:0;}
+      .content-multimedia-img{height:420px; overflow:hidden;
+        img{width:100%;}
+      }   
+    }
+  
+    .audio_container{@include container;
+      audio{display:block; margin:25% auto;}
+    }
+    
+    .iframe_container{ @include container }
+
+    .video_container{ @include container }
+
+  }
+}
+
+.article-parallax{height:600px; background-attachment:fixed; background-position:center; background-size:cover;
+  .article-parallax-container{ width:100%; height:50%; top:50%;}
+}
+
+.chat-wrapper{ bottom:0; right:0; z-index:6;}
+
+.media-article-container,
+.news-article-container{ width:750px; margin:auto; margin-bottom:2.5em;
+  
+  .article-container{width:100%; display:inline-block;
+    .article-image{ width:75%; height:350px;} 
+  }
+
+  .comments-app{width:100%;
+    .comment-form{
+      form.first-form{width:43.5em;
+        .form-row{
+          textarea.inputext{ padding:2px 3px; width:100%; min-height:50px; }
+        }
+      }
+    }
+  }
+
+  .article-sidebar{width:100%; min-height:10em;
+      
+    .article-results-container{width:100%;
+      .article-results-wrap{
+
+        .article-results-btn{width:65px; display: inline-block;
+          .dropmoodcontent{top:45px; right:0; width:3em;
+            -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5); box-shadow: 0 0 1px 0 rgba(0,0,0,.5);
+            span.bounce_button{display:block; margin:0; padding:.27em; }
+          }
+        }
+
+        .modal-mask{
+          .modal-wrapper{
+            .modal-container{width:480px;
+              .model-form-sticky{width:100%; height:auto; 
+                .post_col{width:100%; min-height:280px;}
+              }
+              .modal-form-input{margin:5px 0; width:450px;
+                .post_input{width:100%;
+                  textarea{width:32.15em; min-height:50px;}
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    .related-article-container{ width:100%;
+      .related-article-wrap{width:100%;
+        .related-article-row{margin:0px 0 1em;
+          .content-sub-article-img{height:3.7em; width:5.5em; display:inline-block; vertical-align:top;}
+          .content-sub-article-heading{width:40em; display:inline-block; vertical-align:top; margin-left:5px;
+            a{height:2.9em; }
+            span.subsection{width:100%;}
+          }
+          .content-sub-article-status{
+            /*START VIEW COMMENT SHARE STATUS RESULTS*/
+            ul{width:40em; 
+              li{width:4.25em;}
+            }
+          }
+        }
+      }
+    }
+  }
+}

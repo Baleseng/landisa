@@ -1,0 +1,42 @@
+.project-wc-container{width:100%; min-height:250px; top:60px;
+    .project-wc-content{width:1245px; margin: 0 auto;
+  
+      .project-wc-mainwrap{width:1245px;
+        
+        .project-wc-logo-wrap{width:20em; display:inline-block; vertical-align:top;
+          .project-wc-logo{ width:90px;
+            img{width:100%;}
+          }
+
+          .project-wc-cd-heading{font:normal 12px 'OpenSansRegular', arial, sans-serif;}
+
+          input[type="text"],input[type="password"],input[type="email"]{width:50px; margin:10px;}
+        }
+
+        .project-wc-live-wrap{width:30em; display:inline-block; vertical-align:top; margin:0 1.15em;
+          .project-wc-live-title{font:normal 12px 'OpenSansRegular', arial, sans-serif;}
+          .project-wc-live-feed{
+            .project-wc-live-feed-row{
+              .project-wc-live-feed-col-1{width:70px; padding:5px 0;}
+              .project-wc-live-feed-col-3{width:370px; padding:5px 0;}
+            }
+          }
+
+          .project-wc-tabs {
+            .project-wc-tab {
+              .content {
+
+                
+              }
+            }
+          }
+
+          #feedtime_entered{width:55px;}
+          #feed_entered{width:373px;}
+        }
+        
+      }
+
+      .project-wc-news-title{font:normal 14px 'OpenSansRegular', arial, sans-serif;}
+    }
+  }

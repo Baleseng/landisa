@@ -1,0 +1,212 @@
+.post-board-container{top:3.5em;}
+.user-wall-board-container{top:0;}
+.post-board-container,
+.user-wall-board-container{margin:auto; width:853px; position: relative; 
+
+  .post-board-left-wrap{display: none; visibility: hidden;}
+
+  .user-wall-cover-image-container{height:360px; margin-bottom:25px; width:53.25em; z-index:1; top:0;
+    .user-wall-cover-image{position:absolute; top:0; bottom:0; left:0; right:0;}
+
+    .user-wall-cover-preview{
+      .user-wall-cover-preview-label{
+        a{padding:6.5em 0;}
+      }
+    }
+    
+    .user-wall-board-profile-wrap{display:block; width:100%; margin:0; bottom:0; position:absolute;
+      .user-wall-board-profile-img{display:inline-block; vertical-align:bottom; width:12.5em; height:170px; left:4px; border:5px solid #f2f2f2;
+        .user-profile-update-img-btn{width:100%; height:100%;
+          a{padding:2.85em 0;}
+        }
+      }
+      
+      .user-wall-board-profile-button{display:inline-block; vertical-align:bottom; width:40.5em; height:35px; background:#405365;  
+        .user-wall-hover-wrapper{position:relative; float:left; background:#405365;
+          a.user-profile-nav-inactive{background:#405365; color:#f2f2f2; }
+          span.user-profile-nav-active{background:#f2f2f2; color:#333333; }
+          a.user-profile-nav-inactive,
+          span.user-profile-nav-active{display:block; padding:.45em 10px; 
+            b{font:normal 10px 'OpenSansRegular', arial, sans-serif; text-transform:uppercase;}
+            i{font-size:21px; vertical-align: middle;}
+            &:hover{background:#f2f2f2; color:#333333;}
+          }     
+          #user-wall-hover-show{display:none; visibility: hidden;}
+        }    
+      }
+
+    }
+  }
+
+  .user-timeline-container,
+  .user-profile-container,
+  .user-stories-container,
+  .user-multimedia-container,
+  .user-activity-container{width:53.25em; position:relative; display:inline-block;
+
+/**************************************@MediaScreen UserContribution*********************************/
+    
+    .user-multimedia-row,
+    .user-stories-row{display:inline-block; vertical-align:top; width:17em; margin:10px .29em;}
+
+/**************************************@MediaScreen UserActivity*************************************/ 
+    
+    .user-activity-row{margin:0 0 15px;
+      .user-activity-views{width:100%;}
+      .user-activity-chart{width:40%; margin:15px auto;}
+      .user-activity-views,
+      .user-activity-chart{min-height:50px;
+        .user-activity-block{width:13.1em; display:inline-block; vertical-align:top;
+          .user-activity-block-body{height:100px;
+            
+            .user-activity-block-col-1{float:left;}
+            .user-activity-block-col-2{float:right;}
+            .user-activity-block-col-1,
+            .user-activity-block-col-2{padding:2em 20px 0;
+              i{font-size:2.35em;}
+            }
+
+          }
+        }
+      }
+    }
+
+
+/**************************************@MediaScreen UserProfile*************************************/
+
+    .user-profile-row{
+      .user-profile-name{float:left;}
+      .user-profile-edit-btn{float:right;
+        span{ padding:5px 10px;}
+      }
+
+      .user-profile-col-1{width:24.6em; margin:0 10px; display:inline-block; vertical-align:top;}
+      .user-profile-col-2{width:100%; margin-top: 15px;}
+    }
+    
+/**************************************@MediaScreen UserTimeline**************************************/
+
+    .post-shared-wrap{width:490px; display:inline-block; margin-right:1.13em; position:relative;
+      .searched-output-wrap{
+        .searched-output-block{
+          .searched-output-user{width:310px;
+            .searched-output-img{display:inline-block; vertical-align:top;}
+          }
+        }
+      }
+      .user-timeline-postcontent-tab{width:100%;
+        .modal-mask{
+          .modal-wrapper{
+            .modal-container{width:100%;
+              .model-form-sticky{width:100%; height:auto; 
+                .modal-post_col{width:100%;}
+              }
+              .modal-form-input{width:100%;
+                .modal-post_input{width:100%;
+
+                  .tabcontentuser{width:95%;
+                    .areapostcontainer{display: block;
+                      textarea{width:100%;}
+                    }
+                    .moodpostcontainer{width:100%; height:29px;}
+                  
+                    .postaddbtns{float:left; margin-top:.05em; width:18rem; height:23px;
+                      span{padding:.45em .5em;}
+                      .post-input-box{bottom:1.5em;}
+                      .modalgallery,.modalvideo{bottom:-5px; width:480px; height:235px;
+                        .modal-content-gallery,.modal-content-video {margin:auto; padding:5px;
+                          textarea{padding: 10px 0; width:470px; height:20px; margin:0;}
+                          .post-gallery-button{float:left; margin-top:.45em; padding:.11rem 20px;}
+                          .imageoutput,.videooutput{width:470px; height:130px; float:left;
+                            img,.imgpreview,.videopreview{width:65px; height:55px;}
+                          }
+                        }
+                      }
+                    }
+
+                    .preview-button,.post-button{float:right; padding:.20rem 0; width:135px;}
+
+                    .select-wrap{margin-top:.35em; position:relative; display:inline-block;
+                      .select-button{padding:.11rem 20px;}
+                      .select-option-content{position:absolute; top:30px; width:11.35rem;
+                        a{padding:10px 5px;}
+                      }
+                    }
+
+                    textarea{display:block; width:100%; padding:3.4em 0;}
+                    .inputtext{display:block; width:100%; height:20px;}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      .shareuserpost{width:490px; margin-bottom:15px;
+        .postcontainer{
+          .post{
+
+            .post_user_profile_dropdown{
+              .post_user_profile{width:430px;}
+            }
+            
+            .post_user_share_article_wrap{min-height:100px;
+              
+              post_user_share_article_col_commuity{
+                .post_user_share_article_col_title{ height:280px; padding:6.5em 5px 0; 
+                  a.post_user_share_heading{font:900 21px 'OpenSansRegular', arial, sans-serif;}
+                }
+                .post_user_share_article_col_img{height:280px;}
+              }
+
+              .post_user_share_article_col_article{
+                .post_user_share_article_col_title{ height:280px; padding:0 5px 0;
+                  .post_user_share_btn_row{
+                    .post_user_share_btn_col{width:400px;
+                      a.post_user_share_heading{font:900 21px 'OpenSansRegular', arial, sans-serif;}
+                    }
+                  }
+                }
+                .post_user_share_article_col_img{height:280px;}
+              }
+              
+            }
+
+            .post_user_social_btn_wrap{
+              .post_user_social_btn{
+                .post_user_social_mood,
+                .post_user_social_comment,
+                .post_user_social_share{
+                  .post_user_social_moodbtn,
+                  .post_user_social_commentbtn,
+                  .post_user_social_sharebtn{padding:0px 2.85em;}
+                }
+              }
+            }
+
+          }
+        }
+      }
+      .welcomecontainer{width:490px;}
+    }
+  }
+
+
+  .post-board-right-wrap{ display:inline-block; vertical-align:top; width:21.2em;
+    
+    .app-block{width:47.9%; height:60px; margin-bottom:10px; margin-left:5px; display:inline-block; vertical-align:top; }
+    .fixed {top:5%;}
+    .post-board-right-news-content{display:block; margin-bottom: 10px; width:100%;
+      
+      .post-board-right-news{width:355px;
+        .post-board-right-news-img{width:100%; height:220px;}
+        .post-board-right-news-headline{width:100%;
+          h3{height:45px;
+            a{font:normal 16px 'OpenSansRegular', arial, sans-serif; line-height:21px;}
+          }
+        }
+      }
+    }
+  }
+}

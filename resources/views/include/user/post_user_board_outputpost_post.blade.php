@@ -1,0 +1,1 @@
+<span class="postcard_user_shares">{{ $p->post }}</span>

@@ -1,0 +1,134 @@
+.comments-app{margin-top:3em;
+	
+	.comment-disclaimer{display:block; min-height:35px; margin:10px auto; text-align:center; 
+		h4{font:bold 16px Op, Arial; color:#333; text-transform:capitalize; background:none;}
+		span{font:13px Op, Arial; color:#333;}
+	}
+	/* Commnt Form */
+	.comment-form{display:block; margin-top:10px; margin-bottom:10px; position:relative;
+		/* Commnter Avator */
+		.comment-avatar{display:inline-block; vertical-align:top; width:50px; height:50px; overflow:hidden; position:relative; background: #ccc;
+			img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:50px; text-align:center;}
+		}
+		/* User Comment Input & Button */
+		form.first-form{display:inline-block; vertical-align:top; 
+			.form-row{margin:0;
+
+				textarea.inputext{-moz-appearance:textfield; -webkit-appearance:textfield; resize:none; background-color:white; background-color:-moz-field; border: 1px solid darkgray;
+    		box-shadow: 1px 1px 1px 0 lightgray inset; font: -moz-field; font: -webkit-small-control; font: 14px Op, Arial; color:#333; outline:none;}
+				
+				button{float:right; cursor:pointer; padding:5px 10px; margin:5px 0; border:none; background:#f26522; font:900 12px  arial, sans-serif; text-transform: uppercase;
+					i{font-size: 14px;}
+					&:hover{-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5); box-shadow: 0 0 1px 0 rgba(0,0,0,.5);}
+				}
+			}
+			span.btn,
+			input[type="button"].btn,
+			input[type="submit"].btn{float:right; padding:10px 25px; border:none; margin-top:5px; margin-bottom:5px; font:900 12px arial, sans-serif; text-transform: uppercase;
+				&:hover{-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5); box-shadow: 0 0 1px 0 rgba(0,0,0,.5);}
+			}
+			span.btn-inactive{background:#cccccc; color:#333; cursor:text;}
+			input[type="button"].btn-success,
+			input[type="submit"].btn-success{cursor:pointer; color:#f2f2f2;}
+		}
+	}
+	/* User Comment Output */
+	.comments{margin:0 auto; padding:0; min-height:100px; float:right; width:665px; 
+		.comment{display:table; margin-bottom:15px; width:100%;
+			
+			/* Commnter Avator */
+			.comment-avatar{display:inline-block; vertical-align:top; width:50px; height:51px; overflow:hidden; position:relative; background: #ccc;
+				img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:3.25em; text-align:center;}
+			}
+			.comment-box{display:inline-block; vertical-align:middle; width:615px; margin-bottom:15px;
+				.comment-text{width:100%; min-height:50px; padding:0 10px;font:normal .9em arial, sans-serif;
+				}
+				.comment-footer{width:100%; min-height:20px;
+					/* Commenter Name and Date Comment */ 
+					.comment-info{float:left; font:normal .7em arial, sans-serif; margin-top:5px; text-transform:uppercase;
+						span.comment-author{color:#405365; font-weight:bold;}
+						span.comment-date{color:#aaaaaa;}
+					}
+					/* Commenter Interactive Buttons */ 
+					.comment-actions{float:right;
+						ul.list{list-style:none;
+							li{display:inline-block; vertical-align:middle; 
+								span.comment-counter{font:normal .65em arial, sans-serif; color:#f26522; text-transform:uppercase;}
+								a{margin:0 5px; color:#aaaaaa; cursor:pointer;
+									&:hover{color:#405365;}
+								}
+							}
+						}
+					}
+				}
+			}
+			/* Reply Comment Form */
+			.comment-form{display:block; margin-top:10px; margin-bottom:10px; position:relative; width:92%; float:right;
+				/* Commnter Avator */
+				.comment-avatar{display:inline-block; vertical-align:top; width:50px; height:50px; overflow:hidden; position:relative; background: #ccc;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:3.25em; text-align:center;}
+				}
+				/* Reply Comment Form Input & Button */
+				form.form{display:inline-block; vertical-align:top; width:90.95%;
+					.form-row{margin:0;
+						textarea.inputext{-moz-appearance:textfield; -webkit-appearance:textfield; resize:none; background-color:white; background-color:-moz-field; border: 1px solid darkgray;
+    		box-shadow: 1px 1px 1px 0 lightgray inset; font: -moz-field; font: -webkit-small-control; padding:2px 3px; width:100%; min-height:50px}
+					}
+					span.btn,
+					input[type="button"].btn{float:right; padding:10px 25px; border:none; margin-top:5px; margin-bottom:5px; font:900 12px arial, sans-serif; text-transform: uppercase;
+						&:hover{-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5); box-shadow: 0 0 1px 0 rgba(0,0,0,.5);}
+					}
+					span.btn-inactive{background:#cccccc; color:#333; cursor:text;}
+					input[type="button"].btn-success{background:#f26522; color:#333; cursor:pointer;}
+				}
+			}
+			.reply{display:table; margin-bottom:15px; width:92%; float: right;
+				/* Commnter Avator */
+				.reply-avatar{display:inline-block; vertical-align:top; width:50px; height:51px; overflow:hidden; position:relative; background: #ccc;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:3.25em; text-align:center;}
+				}
+				.reply-box{display:inline-block; vertical-align:middle; width:560px;
+					.reply-text{width:100%; min-height:50px; padding:0 10px; font:normal .9em arial, sans-serif;}
+					.reply-footer{width:100%; min-height:20px;
+						/* Commenter Name and Date Comment */ 
+						.reply-info{float:left; font:normal .7em arial, sans-serif; margin-top:5px;
+							span.reply-author{color:#405365; font-weight:bold;}
+							span.reply-date{color:#aaaaaa;}
+						}
+						/* Commenter Interactive Buttons */ 
+						.reply-actions{float:right;
+							ul.list{list-style:none;
+								li{display:inline-block; vertical-align:middle; 
+									span.reply-counter{font:normal .65em arial, sans-serif; color:#f26522; text-transform:uppercase;}
+									a{margin:0 5px; color:#aaaaaa; cursor:pointer;
+										&:hover{color:#405365;}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.reply-form{display:table; margin-bottom:15px; width:100%; float: right;
+				/* Commnter Avator */
+				.reply-avatar{display:inline-block; vertical-align:top; width:50px; height:50px; overflow:hidden; position:relative; background: #ccc;
+					img{ width:100%; margin:auto 0; color:#aaaaaa; font-size:3.25em; text-align:center;}
+				}
+				/* Reply Comment Form Input & Button */
+				form.form{display:inline-block; vertical-align:top; width:90.95%;
+					.form-row{margin:0;
+						textarea.inputext{-moz-appearance:textfield; -webkit-appearance:textfield; resize:none; background-color:white; background-color:-moz-field; border: 1px solid darkgray;
+    		box-shadow: 1px 1px 1px 0 lightgray inset; font: -moz-field; font: -webkit-small-control; padding:2px 3px; width:100%; min-height:50px}
+					}
+					span.btn,
+					input[type="button"].btn{float:right; padding:10px 25px; border:none; margin-top:5px; margin-bottom:5px; font:900 12px arial, sans-serif; text-transform: uppercase;
+						&:hover{-webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5); box-shadow: 0 0 1px 0 rgba(0,0,0,.5);}
+					}
+					span.btn-inactive{background:#cccccc; color:#333; cursor:text;}
+					input[type="button"].btn-success{background:#f26522; color:#333; cursor:pointer;}
+				}
+			}
+		}
+	}
+}
+

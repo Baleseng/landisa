@@ -1,0 +1,216 @@
+.search {
+  position: absolute;
+  top: 1.7em;
+}
+
+.search #scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search #scroll::-webkit-scrollbar {
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search #scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search ul {
+  list-style: none;
+  overflow-y: scroll;
+  min-height: 1px;
+  max-height: 460px;
+  width: 406px;
+  box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.25);
+}
+
+.search ul li {
+  display: block;
+  background: #f2f2f2;
+  padding: 5px;
+}
+
+.search ul li span.search-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+  height: 45px;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+.search ul li span.search-img img {
+  width: 100%;
+}
+
+.search ul li a.search-title {
+  display: inline-block;
+  vertical-align: top;
+  width: 330px;
+  font: 100 12px arial, sans-serif;
+  color: #405365;
+}
+
+.search ul li a.search-title span.search-section {
+  display: block;
+  text-transform: uppercase;
+  color: #f26522;
+  font: 100 10px arial, sans-serif;
+}
+
+.search-container {
+  width: 1240px;
+  top: 3em;
+  position: relative;
+  min-height: 600px;
+  margin: 15px auto;
+}
+
+.search-container .search-wrapper {
+  min-height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 815px;
+  margin-right: 15px;
+}
+
+.search-container .search-wrapper .search-wrap {
+  bottom: 0px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  width: 265px;
+  height: 360px;
+  margin: 0 2px 10px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f2f2f2;
+  position: relative;
+  bottom: 0;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.3s ease-in-out;
+}
+
+.search-container .search-wrapper .search-wrap .search-subsection {
+  position: absolute;
+  z-index: 1;
+  display: table;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  font: normal 11px "OpenSansRegular", arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.search-container .search-wrapper .search-wrap .search-image {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 140px;
+}
+
+.search-container .search-wrapper .search-wrap .search-image img {
+  width: 100%;
+  margin: auto 0;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: 0;
+  right: 0;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+}
+
+.search-container .search-wrapper .search-wrap .search-image img:hover {
+  width: 105%;
+}
+
+.search-container .search-wrapper .search-wrap .search-heading {
+  overflow: hidden;
+  padding: 0 5px;
+  position: relative;
+  top: 9em;
+  margin: 5px;
+  height: 65px;
+}
+
+.search-container .search-wrapper .search-wrap .search-heading a {
+  font: normal 16px "OpenSansRegular", arial, sans-serif;
+}
+
+.search-container .search-wrapper .search-wrap .search-synopsis {
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  top: 9em;
+  margin: 5px;
+  height: 80px;
+}
+
+.search-container .search-wrapper .search-wrap .search-synopsis a {
+  font: 14px Op, Arial;
+}
+
+.search-container .search-wrapper .search-wrap .search-synopsis p {
+  font: 14px Op, Arial;
+  line-height: 17px;
+}
+
+.search-container .search-wrapper .search-wrap span.published {
+  display: block;
+  color: #a1a1a1;
+  position: relative;
+  top: 12em;
+  margin: 10px 10px 0;
+  font: 100 12px arial, sans-serif;
+  text-transform: capitalize;
+}
+
+.search-container .search-wrapper .search-wrap .search-info {
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  position: relative;
+  top: 9em;
+  margin: 5px 0;
+  /*START VIEW COMMENT SHARE STATUS RESULTS*/
+}
+
+.search-container .search-wrapper .search-wrap .search-info ul {
+  display: inline-block;
+  list-style: none;
+  width: 100%;
+}
+
+.search-container .search-wrapper .search-wrap .search-info ul li {
+  display: inline-block;
+  width: 4.25em;
+}
+
+.search-container .search-wrapper .search-wrap .search-info ul li dl {
+  vertical-align: middle;
+  color: #cccccc;
+  font-size: 16px;
+}
+
+.search-container .search-wrapper .search-wrap .search-info ul li b {
+  display: inline-block;
+  vertical-align: middle;
+  font: normal 14px arial, sans-serif;
+  line-height: 12px;
+  width: 28px;
+}
+
+.search-container .search-wrapper .search-wrap .search-info span {
+  width: 200px;
+}
+
+.search-container .search-wrapper .search-wrap:hover {
+  background-color: #f5f5f5;
+  position: relative;
+  bottom: -3px;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.3s ease-in-out;
+  box-shadow: none;
+}
+

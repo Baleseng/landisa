@@ -1,0 +1,27 @@
+.navigation-article-container{top:0;}
+  .navigation-container{top:3em;}
+  .navigation-container,.navigation-article-container{position:relative; width:1005px; min-height:25px; margin:0 auto;
+    .navigation{width:100%; margin:15px 0;
+      ul{display:inline-block;
+        li{
+          a{font:normal 16px 'OpenSansBold', arial, sans-serif;}
+        }
+      }
+      .submenuvertical{margin: 1em 2px 0;
+        a{margin:0 5px;}
+      }
+      .hamburgermenu{display:block; width:100%; height:270px; top:10px;
+        #submenudesktop{display:block; width:100%;
+          #submenulistnews,
+          #submenulistbusiness,
+          #submenulistsports,
+          #submenulistentertainment,
+          #submenulistmotoring,
+          #submenulistlifestyle,
+          #submenulisttravel,
+          #submenulisttech{width:110px; margin:15px 5px;}
+        }
+      }
+      .sidenavmenu{display:none; visibility:hidden;} 
+    }
+  }
